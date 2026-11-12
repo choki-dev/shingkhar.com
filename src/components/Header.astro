@@ -1,0 +1,165 @@
+---
+import Icon from './Icon.astro';
+import { site, modelsAll, modelsNew, insideKia } from '../data/site';
+
+interface Props { transparent?: boolean }
+const { transparent = false } = Astro.props;
+const path = Astro.url.pathname;
+const isActive = (href: string) => href !== '/' && path.startsWith(href);
+const showroomActive = [...modelsAll, ...modelsNew].some((m) => path.startsWith(`/${m.slug}/`));
+const insideActive = insideKia.some((l) => path.startsWith(l.href));
+
+// Kia-style split navigation: left items | centred logo | right items
+const left = [
+  { label: 'Kia Videos', href: '/kia-videos/' },
+  { label: 'about us', href: '/about-us/' },
+];
+const right = [
+  { label: 'contact us', href: '/contact-us/' },
+  { label: 'Career', href: '/career/' },
+  { label: 'Kia Buzz', href: '/category/kia-buzz/' },
+];
+---
+<header class:list={['site-header', { 'is-transparent': transparent }]} data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="/" title="Kia Bhutan">
+      <img class="brand__dark" src="/logo-dark.png" alt="Kia Bhutan" width="373" height="161" />
+      <img class="brand__light" src="/logo-white.png" alt="" width="373" height="161" aria-hidden="true" />
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul class="nav__list nav__list--left">
+        <li class="nav__item has-mega" data-dropdown>
+          <button class:list={['nav__link', { 'is-active': showroomActive }]} aria-expanded="false" aria-controls="mega-showroom">
+            Showroom <Icon name="chev-down" size={14} class="nav__chev" />
+          </button>
+          <div class="mega" id="mega-showroom">
+            <div class="container mega__inner">
+              <div class="mega__tabs" role="tablist">
+                <button class="mega__tab is-active" role="tab" data-mega-tab="all" aria-selected="true">All Vehicles</button>
+                <button class="mega__tab" role="tab" data-mega-tab="new" aria-selected="false">New</button>
+              </div>
+              <div class="mega__panels">
+                {[['all', modelsAll], ['new', modelsNew]].map(([key, list]) => (
+                  <div class:list={['mega__panel', { 'is-active': key === 'all' }]} data-mega-panel={key as string} role="tabpanel">
+                    {(list as typeof modelsAll).map((m) => (
+                      <a class="mega-car" href={`/${m.slug}/`} title={m.name}>
+                        <span class="mega-car__img"><img src={m.thumb} alt={m.name} loading="lazy" /></span>
+                        <span class="mega-car__name">{m.name}</span>
+                      </a>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav__item has-drop" data-dropdown>
+          <button class:list={['nav__link', { 'is-active': insideActive }]} aria-expanded="false" aria-controls="drop-inside">
+            Inside Kia Bhutan <Icon name="chev-down" size={14} class="nav__chev" />
+          </button>
+          <div class="drop" id="drop-inside">
+            <ul>
+              {insideKia.map((l) => (
+                <li><a href={l.href} title={l.label}>{l.label} <Icon name="arrow" size={13} /></a></li>
+              ))}
+            </ul>
+          </div>
+        </li>
+        {left.map((l) => (
+          <li class="nav__item"><a class:list={['nav__link', { 'is-active': isActive(l.href) }]} href={l.href} title={l.label}>{l.label}</a></li>
+        ))}
+      </ul>
+
+      <ul class="nav__list nav__list--right">
+        {right.map((l) => (
+          <li class="nav__item"><a class:list={['nav__link', { 'is-active': isActive(l.href) }]} href={l.href} title={l.label}>{l.label}</a></li>
+        ))}
+        <li class="nav__item nav__item--dealer">
+          <a class="nav__link nav__dealer" href="/#showroom-hours" title="Showroom Hours"><Icon name="pin" size={15} /> Showroom Hours</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="icon-btn burger" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false" data-burger>
+      <Icon name="menu" size={22} class="burger__open" />
+      <Icon name="close" size={22} class="burger__close" />
+    </button>
+  </div>
+</header>
+
+<script>
+  const header = document.querySelector<HTMLElement>('[data-header]')!;
+  const burger = document.querySelector<HTMLButtonElement>('[data-burger]')!;
+  const desktop = window.matchMedia('(min-width: 1100px)');
+  const items = [...document.querySelectorAll<HTMLElement>('[data-dropdown]')];
+  let timer: number | undefined;
+
+  const syncSolid = () =>
+    header.classList.toggle('is-solid', items.some((i) => i.classList.contains('is-open')) || document.body.classList.contains('nav-open'));
+  const closeAll = (except?: HTMLElement) => {
+    items.forEach((i) => {
+      if (i === except) return;
+      i.classList.remove('is-open');
+      i.querySelector('button')?.setAttribute('aria-expanded', 'false');
+    });
+    syncSolid();
+  };
+  const open = (i: HTMLElement) => {
+    closeAll(i);
+    i.classList.add('is-open');
+    i.querySelector('button')?.setAttribute('aria-expanded', 'true');
+    syncSolid();
+  };
+
+  items.forEach((item) => {
+    const btn = item.querySelector('button')!;
+    btn.addEventListener('click', () => (item.classList.contains('is-open') ? closeAll() : open(item)));
+    item.addEventListener('mouseenter', () => {
+      if (!desktop.matches) return;
+      clearTimeout(timer);
+      open(item);
+    });
+    item.addEventListener('mouseleave', () => {
+      if (!desktop.matches) return;
+      timer = window.setTimeout(() => closeAll(), 250);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!(e.target as HTMLElement).closest('[data-dropdown]')) closeAll();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeAll();
+      document.body.classList.remove('nav-open');
+      burger.setAttribute('aria-expanded', 'false');
+      syncSolid();
+    }
+  });
+
+  document.querySelectorAll<HTMLButtonElement>('[data-mega-tab]').forEach((tab) => {
+    const activate = () => {
+      document.querySelectorAll('[data-mega-tab]').forEach((t) => {
+        t.classList.toggle('is-active', t === tab);
+        t.setAttribute('aria-selected', String(t === tab));
+      });
+      document.querySelectorAll<HTMLElement>('[data-mega-panel]').forEach((p) =>
+        p.classList.toggle('is-active', p.dataset.megaPanel === tab.dataset.megaTab),
+      );
+    };
+    tab.addEventListener('click', activate);
+    tab.addEventListener('mouseenter', () => desktop.matches && activate());
+  });
+
+  burger.addEventListener('click', () => {
+    document.documentElement.style.setProperty('--nav-top', `${header.getBoundingClientRect().bottom}px`);
+    const isOpen = document.body.classList.toggle('nav-open');
+    burger.setAttribute('aria-expanded', String(isOpen));
+    syncSolid();
+  });
+
+  const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 40);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+</script>

@@ -1,0 +1,155 @@
+---
+import Icon from './Icon.astro';
+import { sectionName, slugify, heroSlides, type Model } from '../data/site';
+
+interface Props { model: Model }
+const { model } = Astro.props;
+type Block = any;
+
+// Group page blocks into sections: every slider opens a new section,
+// galleries attach to the section above them.
+type Section = { id: string; name: string; slides: { src: string; caption: string }[]; galleries: Block[] };
+const sections: Section[] = [];
+let colors: Block | null = null;
+let dims: Block | null = null;
+for (const b of model.blocks as Block[]) {
+  if (b.type === 'slider') {
+    const name = sectionName(b.label);
+    sections.push({ id: slugify(name), name, slides: b.slides, galleries: [] });
+  } else if (b.type === 'gallery') {
+    if (!sections.length) sections.push({ id: 'gallery', name: 'Gallery', slides: [], galleries: [] });
+    sections[sections.length - 1].galleries.push(b);
+  } else if (b.type === 'colors') colors = b;
+  else if (b.type === 'dimensions' && (b.rows.length || b.image)) dims = b;
+}
+
+// Hero image: first exterior slide, or the matching home slide (Carens)
+const firstSlide = sections.find((s) => s.slides.length)?.slides[0]?.src;
+const hero = firstSlide ?? heroSlides.find((h) => h.href === `/${model.slug}/`)?.src ?? model.thumb;
+if (firstSlide && sections[0].slides.length > 1) sections[0].slides = sections[0].slides.slice(1);
+
+const specLink = colors?.specLink ?? null;
+const nav = [
+  ...sections.map((s) => ({ id: s.id, name: s.name })),
+  ...(colors ? [{ id: 'colours', name: 'Colours' }] : []),
+  ...(dims ? [{ id: 'dimensions', name: 'Dimensions' }] : []),
+];
+---
+<section class="model-hero">
+  <div class="model-hero__img"><img src={hero} alt={`Kia ${model.name}`} fetchpriority="high" /></div>
+  <div class="model-hero__content">
+    <div class="container">
+      <div>
+        <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/#showroom">Showroom</a></li><li>{model.name}</li></ol>
+        <h1 data-reveal>{model.name}</h1>
+      </div>
+      {specLink && (
+        <div class="model-hero__actions" data-reveal style="--d:.15s">
+          <a class="btn btn--white" href={specLink}>For more Specification <Icon name="arrow" size={16} /></a>
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+{nav.length > 1 && (
+  <nav class="subnav" data-subnav aria-label={`${model.name} sections`}>
+    <div class="container subnav__inner">
+      <span class="subnav__name">{model.name}</span>
+      <div class="subnav__links">
+        {nav.map((n) => <a href={`#${n.id}`}>{n.name}</a>)}
+        {specLink && <a href={specLink}>Specification</a>}
+      </div>
+      <a class="btn btn--sm" href="/contact-us/">contact us</a>
+    </div>
+  </nav>
+)}
+
+{sections.map((s, si) => (
+  <section class="feature" id={s.id}>
+    <div class="container">
+      <div class="feature__head" data-reveal>
+        <div>
+          <h2 class="title-lg">{s.name}</h2>
+        </div>
+      </div>
+
+      {s.slides.length > 0 && (
+        <div class="mslider" data-slider data-autoplay="5500" data-reveal>
+          <div class="mslider__track">
+            {s.slides.map((sl, i) => (
+              <a class:list={['mslider__slide', { 'is-active': i === 0 }]} data-slide href={sl.src} data-lb={`slide-${s.id}`} data-caption={`${model.name} ${sl.caption || s.name}`}>
+                <img src={sl.src} alt={`${model.name} ${sl.caption || s.name}`} loading={si === 0 && i === 0 ? 'eager' : 'lazy'} width="1903" height="900" />
+              </a>
+            ))}
+          </div>
+          {s.slides.length > 1 && (
+            <div class="mslider__ui">
+              <span class="hero__count"><b data-current>01</b> / {String(s.slides.length).padStart(2, '0')}</span>
+              <div class="hero__dots" data-dots></div>
+              <div class="hero__ctrl">
+                <button data-prev aria-label="Previous image"><Icon name="chev-left" size={18} /></button>
+                <button data-next aria-label="Next image"><Icon name="chev-right" size={18} /></button>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {s.galleries.map((g: Block) => (
+        <div class:list={['gallery', { 'gallery--few': g.items.length <= 3 }]}>
+          {g.items.map((it: Block, i: number) => (
+            <a class="gallery__item" href={it.full} data-lb={`gal-${s.id}`} data-caption={it.title || `${model.name} ${s.name}`} data-reveal style={`--d:${Math.min(i, 8) * 0.05}s`}>
+              <img src={it.thumb} alt={it.title || `${model.name} ${s.name}`} loading="lazy" width={it.w} height={it.h} />
+              <span class="gallery__zoom"><Icon name="expand" size={16} /></span>
+              {it.title && <figcaption>{it.title}</figcaption>}
+            </a>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+))}
+
+{colors && (
+  <section class="feature" id="colours">
+    <div class="container">
+      <div class="colors" data-colors data-model={model.name}>
+        <div class="colors__stage" data-reveal>
+          <img src={colors.colors[0].image} alt={`${model.name} in ${colors.colors[0].name}`} data-color-image width="1600" height="800" />
+        </div>
+        <div data-reveal style="--d:.1s">
+          <h2 class="title-lg">Car Display</h2>
+          <p class="colors__name"><small>Color</small><span data-color-name>{colors.colors[0].name}</span></p>
+          <div class="swatches" role="group" aria-label="Colours">
+            {colors.colors.map((c: Block, i: number) => (
+              <button class:list={['swatch', { 'is-active': i === 0 }]} style={`background:${c.swatch}`} data-color={c.name} data-img={c.image} aria-label={c.name} aria-pressed={i === 0 ? 'true' : 'false'} title={c.name}></button>
+            ))}
+          </div>
+          {specLink && (
+            <p>For more Specification <a class="link-arrow" href={specLink}>Click Here <Icon name="arrow" size={14} /></a></p>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+
+{dims && (
+  <section class="feature" id="dimensions">
+    <div class="container">
+      <div class="dims">
+        {dims.image && <div class="dims__img" data-reveal><img src={dims.image} alt={dims.alt || `Details of ${model.name}`} loading="lazy" /></div>}
+        <div data-reveal style="--d:.1s">
+          <h2 class="title-lg">Dimensions (mm)</h2>
+          <table class="spec-table">
+            <tbody>
+              {dims.rows.map((r: string[]) => <tr><th scope="row">{r[0]}</th><td>{r[1]}</td></tr>)}
+            </tbody>
+          </table>
+          {dims.note && <p class="note">{dims.note}</p>}
+        </div>
+      </div>
+    </div>
+  </section>
+)}

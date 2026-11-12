@@ -1,0 +1,183 @@
+/* =========================================================================
+   KIA INDIA–STYLE THEME (layout & components modelled on kia.com/in)
+   Colours stay shingkhar.com: #00040d / #000 / white / greys
+   ========================================================================= */
+:root { --header-h: 72px; --topbar-h: 0px; --kgrey: #d4d6d8; --kgrey-2: #e4e5e6; --kwarm: #f4f4f4; }
+body { color: #000; }
+
+/* ----- Buttons (Kia "Know More") ----- */
+.kbtn {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 152px; min-height: 48px; padding: .75rem 2.2rem;
+  background: var(--ink); color: #fff; font-family: var(--font-head); font-size: .9rem; font-weight: 700; text-transform: capitalize;
+  border: 1px solid var(--ink); transition: background .25s, color .25s, border-color .25s;
+}
+.kbtn:hover { background: #fff; color: var(--ink); }
+.kbtn--white { background: #fff; color: #000; border-color: #fff; }
+.kbtn--white:hover { background: transparent; color: #fff; }
+.kbtn--grey { background: var(--kgrey); color: #000; border-color: var(--kgrey); }
+.kbtn--grey:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.btn { text-transform: none; letter-spacing: 0; font-size: .9rem; font-weight: 700; }
+
+/* ----- Header: centred logo, split navigation ----- */
+.topbar { display: none; }
+.site-header { background: #fff; border-bottom: 1px solid #e5e5e5; backdrop-filter: none; transition: background .35s, border-color .35s, box-shadow .35s; }
+.site-header__inner { position: relative; height: var(--header-h); gap: 0; }
+.site-header.is-scrolled .site-header__inner { height: 64px; }
+.brand { position: absolute; left: 50%; top: 50%; translate: -50% -50%; z-index: 2; }
+.brand img { height: 50px; transition: filter .35s, height .3s; }
+.site-header.is-scrolled .brand img { height: 44px; }
+.nav { flex: 1; display: flex; justify-content: space-between; margin: 0; }
+.nav__link { text-transform: capitalize; font-size: .95rem; font-weight: 400; letter-spacing: 0; color: #000; padding: 0 .85rem; }
+.nav__link::after { height: 2px; background: currentColor; left: .85rem; right: .85rem; }
+.nav__link:hover, .nav__item.is-open > .nav__link, .nav__link.is-active { color: #000; }
+.nav__dealer { font-size: .82rem; font-weight: 500; gap: .35rem; }
+.nav__item--dealer { position: relative; padding-left: .6rem; margin-left: .4rem; }
+.nav__item--dealer::before { content: ''; position: absolute; left: 0; top: 50%; height: 26px; translate: 0 -50%; border-left: 1px solid #c8c8c8; }
+
+/* transparent header over the hero (home & model pages) */
+body.has-overlay-header .site-header { position: fixed; left: 0; right: 0; top: 0; }
+.site-header.is-transparent { background: transparent; border-color: rgba(255, 255, 255, .25); }
+.site-header.is-transparent .nav__link { color: #fff; }
+.site-header.is-transparent .nav__item--dealer::before { border-color: rgba(255, 255, 255, .5); }
+.brand__light { display: none; }
+.site-header.is-transparent .brand__dark { display: none; }
+.site-header.is-transparent .brand__light { display: block; }
+.site-header.is-transparent .burger { color: #fff; }
+.site-header.is-transparent:is(.is-scrolled, .is-solid, :hover) { background: #fff; border-color: #e5e5e5; }
+.site-header.is-transparent:is(.is-scrolled, .is-solid, :hover) .nav__link { color: #000; }
+.site-header.is-transparent:is(.is-scrolled, .is-solid, :hover) .brand__dark { display: block; }
+.site-header.is-transparent:is(.is-scrolled, .is-solid, :hover) .brand__light { display: none; }
+.site-header.is-transparent:is(.is-scrolled, .is-solid, :hover) .burger { color: #000; }
+.site-header.is-transparent:is(.is-scrolled, .is-solid, :hover) .nav__item--dealer::before { border-color: #c8c8c8; }
+
+/* mega menu, Kia look */
+.mega { border-top: 1px solid #e5e5e5; box-shadow: 0 20px 30px -20px rgba(0, 0, 0, .3); }
+.mega__inner { grid-template-columns: 1fr; gap: 1.6rem; padding-block: 1.8rem 2.4rem; }
+.mega__tabs { flex-direction: row; justify-content: center; gap: 4px; border: 0; padding: 0; }
+.mega__tab { padding: .6rem 2rem; background: #dfe1e3; color: #000; border: 0; font-weight: 400; font-size: .92rem; }
+.mega__tab.is-active, .mega__tab:hover { background: var(--ink); color: #fff; border: 0; }
+.mega__panel { grid-template-columns: repeat(4, minmax(0, 220px)); justify-content: center; gap: 1.5rem; }
+.mega-car { align-items: center; text-align: center; padding: .6rem; }
+.mega-car:hover { border-color: transparent; box-shadow: none; }
+.mega-car__name { font-size: 1rem; font-weight: 700; text-transform: uppercase; }
+.drop { border-top: 0; box-shadow: 0 16px 30px -12px rgba(0, 0, 0, .3); }
+.drop a { text-transform: capitalize; }
+.drop a .icon { color: #000; }
+.drop a:hover { color: #000; }
+
+@media (max-width: 1099px) {
+  .brand { position: static; translate: none; }
+  .site-header__inner { justify-content: space-between; }
+  .burger { display: grid; }
+  .nav { display: block; position: fixed; inset: var(--nav-top, var(--header-h)) 0 0 0; background: #fff; }
+  .nav__list { display: flex; }
+  .nav__link, .site-header.is-transparent .nav__link { color: #000; }
+  .nav__item--dealer { padding-left: 0; margin: 0; }
+  .nav__item--dealer::before { display: none; }
+  .mega__tabs { justify-content: stretch; }
+  .mega__tab { flex: 1; }
+  .mega__panel { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ----- Hero (Kia home slider) ----- */
+.khero { position: relative; background: #000; overflow: hidden; color: #fff; }
+.khero__track { position: relative; aspect-ratio: 20 / 9; max-height: 100svh; min-height: 320px; width: 100%; }
+.khero__slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity 1s ease, visibility 1s; }
+.khero__slide.is-active { opacity: 1; visibility: visible; }
+.khero__slide img { width: 100%; height: 100%; object-fit: cover; }
+.khero__slide.is-active img { animation: kenburns 9s ease-out forwards; }
+.khero::before { content: ''; position: absolute; inset: 0 0 auto; height: 22%; z-index: 1; background: linear-gradient(rgba(0, 0, 0, .45), transparent); pointer-events: none; }
+.khero::after { content: ''; position: absolute; inset: auto 0 0; height: 30%; z-index: 1; background: linear-gradient(transparent, rgba(0, 0, 0, .55)); pointer-events: none; }
+.khero__bottom { position: absolute; left: 0; right: 0; bottom: clamp(1.2rem, 3.5vw, 3rem); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 1.2rem; }
+.khero__dots { display: flex; align-items: center; gap: .8rem; }
+.khero__dots .hero__dots { width: 200px; flex: none; }
+@media (max-width: 760px) {
+  .khero__track { aspect-ratio: 20 / 12; }
+  .khero__bottom .kbtn { min-height: 40px; padding: .5rem 1.4rem; min-width: 0; }
+  .khero__dots .hero__dots { width: 120px; }
+}
+
+/* ----- Sections ----- */
+.ksection { padding-block: clamp(3.5rem, 7vw, 6rem); }
+.ksection--white { background: #fff; }
+.ksection--warm { background: var(--kwarm); }
+.ksection--grey { background: #eceeef; }
+.ktitle { font-family: var(--font-head); font-weight: 700; font-size: clamp(1.8rem, 3.2vw, 2.7rem); color: #000; letter-spacing: -.015em; margin-bottom: 2rem; }
+.kcenter { text-align: center; }
+.klead { max-width: 900px; margin-inline: auto; color: #222; font-size: 1.05rem; }
+.kcenter .kbtn { margin-top: 1rem; }
+
+/* tabs */
+.ktabs { display: flex; justify-content: center; gap: 4px; margin-bottom: 2.4rem; flex-wrap: wrap; }
+.ktab { padding: .7rem 2.4rem; background: #dfe1e3; color: #000; font-family: var(--font-head); font-size: .95rem; transition: background .25s, color .25s; }
+.ktab:hover { background: #c9cccf; }
+.ktab.is-active { background: var(--ink); color: #fff; }
+
+/* car rail */
+.krange { position: relative; }
+.krange__track {
+  display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 48px) / 3); gap: 24px; justify-content: center;
+  overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: .2rem;
+}
+.krange__track::-webkit-scrollbar { display: none; }
+.krange__track:has(> :nth-child(4)) { justify-content: start; }
+.kcar { background: var(--kgrey-2); padding: 20px 20px 30px; text-align: center; scroll-snap-align: start; display: flex; flex-direction: column; }
+.kcar__img { display: block; background: #fff; aspect-ratio: 16 / 10; overflow: hidden; }
+.kcar__img img { width: 100%; height: 100%; object-fit: contain; transition: transform .6s var(--ease); }
+.kcar:hover .kcar__img img { transform: scale(1.05); }
+.kcar__name { font-size: clamp(1.4rem, 2vw, 1.9rem); font-weight: 700; text-transform: uppercase; margin: 1.4rem 0 1.2rem; letter-spacing: .02em; }
+.kcar__actions { display: flex; flex-direction: column; align-items: center; gap: .6rem; margin-top: auto; }
+.kcar__actions .kbtn { min-width: 170px; }
+.krail-arrow {
+  position: absolute; top: 34%; z-index: 2; width: 60px; height: 60px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(0, 0, 0, .28); color: #fff; transition: background .25s;
+}
+.krail-arrow:hover { background: var(--ink); }
+.krail-arrow--prev { left: -18px; }
+.krail-arrow--prev .icon { rotate: 180deg; }
+.krail-arrow--next { right: -18px; }
+@media (max-width: 1000px) { .krange__track { grid-auto-columns: calc((100% - 24px) / 2); justify-content: start; } }
+@media (max-width: 640px) { .krange__track { grid-auto-columns: 86%; } .krail-arrow { display: none; } }
+
+/* tiles (Start Your Kia Journey) */
+
+/* discover cards with dividers */
+.kcards { display: grid; grid-template-columns: repeat(3, 1fr); }
+.kcard { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 0 2rem; }
+.kcard + .kcard { border-left: 1px solid #c8c8c8; }
+.kcard__img { display: block; width: 100%; aspect-ratio: 16 / 8.5; overflow: hidden; }
+.kcard__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s var(--ease); }
+.kcard:hover .kcard__img img { transform: scale(1.05); }
+.kcard h3 { font-size: 1.25rem; font-weight: 600; margin: 1.6rem 0 .7rem; text-transform: capitalize; }
+.kcard p { font-size: .95rem; color: #333; flex: 1; }
+@media (max-width: 900px) { .kcards { grid-template-columns: 1fr; gap: 3rem; } .kcard + .kcard { border-left: 0; } .kcard { padding: 0; } }
+
+/* hours + map */
+.kvisit { display: grid; grid-template-columns: 1fr 1.6fr; gap: 24px; align-items: stretch; }
+.kvisit__card { background: var(--kwarm); padding: 2rem 2.2rem; }
+.kvisit__map iframe { width: 100%; height: 100%; min-height: 400px; border: 0; display: block; }
+@media (max-width: 900px) { .kvisit { grid-template-columns: 1fr; } }
+
+/* ----- Footer (Kia) ----- */
+
+/* ----- Inner pages in Kia style ----- */
+.page-hero__inner { align-items: center; text-align: center; }
+.page-hero h1 { font-weight: 700; text-transform: capitalize; }
+.crumbs { justify-content: center; }
+.subnav, .trim-tabs { top: 64px; }
+.model-hero__img { max-height: calc(100svh - var(--header-h)); }
+.model-hero h1 { font-weight: 700; }
+.trim-tab { border: 0; background: #dfe1e3; }
+.trim-tab.is-active { background: var(--ink); }
+.spec-block { border-top: 0; }
+.feature:nth-of-type(even) { background: var(--kwarm); }
+
+
+/* fixes */
+@media (max-width: 1099px) {
+  .nav__link { padding: 1rem var(--gutter); font-size: 1rem; }
+  .nav__dealer { justify-content: flex-start; gap: .5rem; }
+  .drop a { padding-inline: calc(var(--gutter) + 1rem); }
+}
+
+.model-hero__img img { object-position: center top; }

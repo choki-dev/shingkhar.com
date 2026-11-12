@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { allModels, insideKia, mainNav, salesModelLinks } from '../data/site';
+import specs from '../data/specs.json';
+import posts from '../data/posts.json';
+const cols = [
+  { title: 'Showroom', links: allModels.map((m) => ({ label: m.name, href: `/${m.slug}/` })) },
+  { title: 'Specifications', links: Object.values(specs).map((s) => ({ label: `Kia ${s.model} Specifications`, href: `/${s.slug}/` })) },
+  { title: 'Inside Kia Bhutan', links: insideKia },
+  { title: 'Kia Bhutan', links: [{ label: 'Home', href: '/' }, ...mainNav, { label: 'disclaimer', href: '/disclaimer/' }] },
+  { title: 'Kia Buzz', links: posts.filter((p) => p.category === 'kia-buzz').map((p) => ({ label: p.title, href: `/${p.slug}/` })) },
+  { title: 'Sales', links: posts.filter((p) => p.category === 'sales').map((p) => ({ label: p.title, href: salesModelLinks[p.slug] ?? '/category/uncategorized/sales/' })) },
+];
+---
+<Base title="Sitemap - Kia Bhutan">
+  <PageHero title="sitemap" crumbs={[{ label: 'sitemap' }]} />
+  <section class="section">
+    <div class="container sitemap-cols">
+      {cols.map((c) => (
+        <div><h2>{c.title}</h2><ul>{c.links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul></div>
+      ))}
+    </div>
+  </section>
+</Base>

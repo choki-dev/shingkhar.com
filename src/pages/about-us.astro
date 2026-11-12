@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import LongArrow from '../components/LongArrow.astro';
+import pages from '../data/pages.json';
+const page = pages['about-us'];
+
+// Text taken from the existing About us page
+const talentLounge = 'https://career.kia.com/eng/main/main.kc?utm_source=kia-dealership-site-ktl&utm_medium=link&utm_campaign=ktl-pr';
+---
+<Base title="about us - Kia Bhutan" image={page.banner}>
+  <PageHero title="About us" crumbs={[{ label: 'about us' }]} />
+
+  <section class="section">
+    <div class="container about2">
+      <figure class="about2__img" data-reveal>
+        <img src={page.banner} alt="Kia vehicles" width="2000" height="900" loading="eager" />
+      </figure>
+      <div class="about2__head" data-reveal>
+        <h2 class="about2__title">Shingkhar Pvt. Ltd. is the sole and exclusive distributor of Kia Motors Corporation in Bhutan.</h2>
+      </div>
+      <div class="about2__text" data-reveal style="--d:.1s">
+        <p>As we celebrate over twenty years of the dealership, we commit ourselves to deliver exceptional customer care and satisfaction to all our customers.</p>
+        <p>Whether you’re new to Kia or you need the support of our services, our team of highly knowledgeable and skilled teams will provide you with the high-quality customer service that you deserve.</p>
+        <a class="dept__cta" href={talentLounge} target="_blank" rel="noopener">Kia Talent Lounge <LongArrow width={44} /></a>
+      </div>
+    </div>
+  </section>
+</Base>

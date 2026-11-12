@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import LongArrow from '../components/LongArrow.astro';
+import { site } from '../data/site';
+import pages from '../data/pages.json';
+const page = pages['service'];
+
+// Split the existing page content into its parts (text stays exactly as on the old site)
+const strip = (s: string) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#8217;/g, '’').replace(/\s+/g, ' ').trim();
+const [intro, tech = ''] = page.html.split(/<h4>/);
+const welcome = strip(intro.match(/<h3>([\s\S]*?)<\/h3>/)?.[1] ?? 'Welcome to Kia Service Center');
+const introParas = [...intro.matchAll(/<p>([\s\S]*?)<\/p>/g)].map((m) => strip(m[1])).filter(Boolean);
+const techTitle = strip(tech.split('</h4>')[0] ?? '');
+const techParas = [...tech.matchAll(/<p>([\s\S]*?)<\/p>/g)].map((m) => strip(m[1])).filter(Boolean);
+const phone = site.phones[1];
+---
+<Base title="Service - Kia Bhutan">
+  <PageHero title="Service" image={page.banner} position="22% center" crumbs={[{ label: 'Inside Kia Bhutan' }, { label: 'Service' }]} />
+
+  <!-- Welcome -->
+  <section class="section">
+    <div class="container svc__intro">
+      <div data-reveal>
+        <h2 class="svc__title">{welcome}</h2>
+      </div>
+      <div class="svc__text" data-reveal style="--d:.1s">
+        {introParas.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Technicians -->
+  {techTitle && (
+    <section class="svc__band">
+      <div class="container svc__band-inner" data-reveal>
+        <h2 class="svc__band-title">{techTitle}</h2>
+        <div class="svc__band-text">{techParas.map((p) => <p>{p}</p>)}</div>
+      </div>
+    </section>
+  )}
+
+  <!-- Contact row -->
+  <section class="svc__contact">
+    <div class="container svc__contact-inner" data-reveal>
+      <div><small>{phone.label}</small><a href={`tel:${phone.tel}`}>{phone.display}</a></div>
+      <div><small>Location</small><span>{site.serviceCenter}</span></div>
+      <div><small>Email</small><a href={site.emailHref}>{site.email}</a></div>
+      <a class="dept__cta" href="/contact-us/">Contact us <LongArrow width={44} /></a>
+    </div>
+  </section>
+</Base>

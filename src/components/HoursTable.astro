@@ -1,0 +1,19 @@
+---
+import { hours } from '../data/site';
+interface Props { light?: boolean }
+const { light = false } = Astro.props;
+---
+<table class:list={['hours', { 'hours--light': light }]} data-hours>
+  <thead><tr><th scope="col">Days</th><th scope="col">Time</th></tr></thead>
+  <tbody>
+    {hours.map(([day, time]) => (
+      <tr data-day={day} class:list={{ 'is-closed': time === 'Closed' }}><td>{day}</td><td>{time}</td></tr>
+    ))}
+  </tbody>
+</table>
+
+<script>
+  // Highlight today's row (Bhutan time, UTC+6)
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', timeZone: 'Asia/Thimphu' });
+  document.querySelectorAll(`[data-hours] tr[data-day="${today}"]`).forEach((tr) => tr.classList.add('is-today'));
+</script>

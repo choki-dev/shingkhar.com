@@ -1,0 +1,14 @@
+---
+import Icon from './Icon.astro';
+interface Props { form: string; submit?: string; multipart?: boolean }
+const { form, submit = 'Submit', multipart = false } = Astro.props;
+---
+<form class="form" method="post" action="/api/form/" data-form enctype={multipart ? 'multipart/form-data' : undefined}>
+  <input type="hidden" name="_form" value={form} />
+  <div class="hp" aria-hidden="true"><label>Leave empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></label></div>
+  <slot />
+  <div class="form__actions">
+    <button class="btn" type="submit">{submit} <Icon name="arrow" size={16} /></button>
+    <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+  </div>
+</form>

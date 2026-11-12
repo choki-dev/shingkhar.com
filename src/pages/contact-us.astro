@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import FormShell from '../components/FormShell.astro';
+import Field from '../components/Field.astro';
+import { site } from '../data/site';
+---
+<Base title="contact us - Kia Bhutan">
+  <PageHero title="contact us" crumbs={[{ label: 'contact us' }]} />
+
+  <section class="section">
+    <div class="container contact2">
+      <!-- Info panel -->
+      <aside class="contact2__info" data-reveal>
+        <h2 class="contact2__heading">Get in touch</h2>
+        <dl class="contact2__list">
+          {site.phones.map((p) => (
+            <div>
+              <dt>{p.label}</dt>
+              <dd>{p.display.split(' / ').map((n, i) => (
+                <a href={`tel:${i === 0 ? p.tel : '+975' + n.replace(/\s/g, '')}`}>{n}</a>
+              ))}</dd>
+            </div>
+          ))}
+          <div>
+            <dt>Email</dt>
+            <dd><a href={site.emailHref}>{site.email}</a></dd>
+          </div>
+          <div>
+            <dt>Showroom</dt>
+            <dd>{site.showroom}</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <!-- Form -->
+      <div class="contact2__form" data-reveal style="--d:.1s">
+        <h2 class="contact2__title">Send us a message</h2>
+        <p class="contact2__lead">Please fill out the form below and we’ll contact you shortly.</p>
+        <FormShell form="contact" submit="Send">
+          <Field name="f-name" label="First Name" required />
+          <Field name="l-name" label="Last Name" required />
+          <Field name="your-email" label="Email Address" type="email" required />
+          <Field name="ph-no" label="Phone No" type="tel" required />
+          <Field name="message" label="Message" type="textarea" full required />
+        </FormShell>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,4561 @@
+{
+ "kia-seltos-specifications-hte": {
+  "slug": "kia-seltos-specifications-hte",
+  "model": "Seltos",
+  "title": "Kia Seltos Specifications HTE - Kia Bhutan",
+  "trims": [
+   {
+    "tab": "HTE",
+    "name": "Kia Seltos Specifications HTE",
+    "image": "/wp-content/uploads/2023/10/hte-seltos.jpg",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1620mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ESC, VSM & HAC",
+         "All Wheel Disc Brakes",
+         "Highline Tire Pressure Monitoring System",
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "Rear Door Sunshade Curtain",
+         "Halogen Projector Headlamps",
+         "SharkFin Antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#eaeeef",
+          "name": "Clear White (solid)"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1620mm"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 6MT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Halogen Projector Headlamps",
+         "R16 40.56 cm Steel Wheel with Full Cover",
+         "Sharkfin Antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Fabric Seats",
+         "Silver Dashboard Garnish",
+         "Front Map Lamps",
+         "Rear Room Lamps",
+         "Silver Painted Inside Door Handles"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTK",
+    "name": "Kia Seltos Specifications HTK",
+    "image": "/wp-content/uploads/2023/10/htk-seltos.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1635mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ESC, VSM & HAC",
+         "All Wheel Disc Brakes",
+         "Highline Tire Pressure Monitoring System",
+         "20.32 cm (8.0”) Touchscreen with Wireless Android Auto & Apple Carplay",
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "Rear Door Sunshade Curtain",
+         "Halogen Projector Headlamps",
+         "Rear Parking Camera",
+         "AutoLight Control"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#eaeeef",
+          "name": "Clear White (solid)"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#2b2c71",
+          "name": "Imperial Blue"
+         },
+         {
+          "swatch": "#3e493b",
+          "name": "Pewter Olive (New)"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1635mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 6MT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Halogen Projector Headlamps",
+         "R16 40.56 cm Steel Wheel with Full Cover",
+         "Sharkfin Antenna",
+         "Silver Roof Rack",
+         "Projector Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Front & Rear Mud Guard"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Fabric Seats",
+         "Silver Dashboard Garnish",
+         "Front Map Lamps",
+         "Rear Room Lamps",
+         "Silver Painted Inside Door Handles"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "Driver Side Power Window Auto Down",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable Outside Rear View Mirror"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "20.32 cm (8.0”) Touchscreen",
+         "Wireless Android Auto & Apple Carplay",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "All Door Speakers, Front Tweeters",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTK+",
+    "name": "Kia Seltos Specifications HTK+",
+    "image": "/wp-content/uploads/2023/10/htk-seltos-1.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1635mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ESC, VSM & HAC",
+         "Smart Key with Push Button Start/Stop",
+         "Front LED DRL’s",
+         "20.32 cm (8.0”) Touchscreen with Wireless Android Auto & Apple Carplay",
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "Rear Door Sunshade Curtain",
+         "Sound Mood Lamps",
+         "R16 40.56 cm Hyper Metallic Alloy Wheels",
+         "Fully Automatic Air Conditioner",
+         "Cruise Control with Manual Speed Limit Assist"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363A",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#B2001E",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#2B2C71",
+          "name": "Imperial Blue"
+         },
+         {
+          "swatch": "#3E493B",
+          "name": "Pewter Olive (New)"
+         },
+         {
+          "swatch": "#F4F9FB",
+          "name": "Glacier White Pearl"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1635mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 6MT",
+         "1.5L CRDi VGT 6iMT",
+         "Smartstream G1.5 T-GDi 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Halogen Projector Headlamps",
+         "R16 40.56 cm Hyper Metallic Alloy Wheels",
+         "Sharkfin Antenna",
+         "Silver Roof Rack",
+         "Projector Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Front & Rear Mud Guard",
+         "Star Map LED DRL’s"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof (G1.5T only)",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps (G1.5T only)",
+         "Fabric Seats",
+         "Black High Gloss Dashboard Garnish with Techno Print",
+         "Front Map Lamps",
+         "Rear Room Lamps",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "Driver Side Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "20.32 cm (8.0”) Touchscreen with Wireless Android Auto & Apple Carplay",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "All Door Speakers, Front Tweeters",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTX",
+    "name": "Kia Seltos Specifications HTX",
+    "image": "/wp-content/uploads/2023/10/htx-seltos.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1645mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "Panoramic Sunroof",
+         "Crown Jewel LED Headlamps with Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators with Ice Cube LED Fog Lamps",
+         "R17 43.66 cm Alloy Wheels",
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation with",
+         "Kia Connect with OTA Maps & System Update",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Ambient Lighting"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363A",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#B2001E",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#2B2C71",
+          "name": "Imperial Blue"
+         },
+         {
+          "swatch": "#3E493B",
+          "name": "Pewter Olive (New)"
+         },
+         {
+          "swatch": "#F4F9FB",
+          "name": "Glacier White Pearl"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#C8C1B1",
+          "name": "Black & Beige Dual Tone Interiors"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1645mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 6MT",
+         "Smartstream G1.5 IVT",
+         "1.5L CRDi VGT 6iMT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown Jewel LED Headlamps",
+         "Star Map LED DRL’S",
+         "Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators",
+         "Ice Cube LED Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Glossy Black Radiator Grille with Knurled Chrome Surround",
+         "R17 43.66 cm Matt Grey Alloy Wheels (MT/iMT)",
+         "R17 43.66 cm Crystal Cut Alloy Wheels (IVT/AT)",
+         "Chrome Beltline Garnish",
+         "Sharkfin Antenna",
+         "Silver Roof Rack",
+         "Chrome Outside Door Handle",
+         "Front & Rear Mud Guard"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps",
+         "Beige Leatherette Seats with Geometric Pattern (MT/iMT)",
+         "Black & Beige Leatherette Seats with Tubular Pattern (IVT/AT)",
+         "Soft Touch Dashboard Garnish with Stitch Pattern",
+         "Leatherette Wrapped D-Cut Steering Wheel with Seltos Logo",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps",
+         "Leatherette Center Console Armrest, Door Armrest and Door Center Trim",
+         "Metal Scuff Plates with Seltos Logo"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ISOFIX Child Anchor and Adjustable Rear Headrests (x3)",
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt & Telescopic Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "All Door Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer",
+         "Ambient Lighting",
+         "Auto Anti-Glare Inside Rear View Mirror with Kia Connect Button",
+         "Front Seat Back Pockets with Passenger Side Upper Pocket",
+         "60:40 Seat Back Split Fold with Rear Reclining Seats",
+         "Rear Center Armrest with Cup Holders",
+         "Paddle Shifters (IVT/AT)",
+         "Drive Mode Select [Eco/ Normal/ Sport] (IVT/AT)",
+         "Traction Control Mode [Sand/ Mud / Snow] (IVT/AT)"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation",
+         "Wired Android Auto & Apple Carplay",
+         "Full Digital Cluster with 10.5 cm (4.2″) Color TFT MID",
+         "Kia Connect with OTA Maps & System Update",
+         "AI Voice Recognition System",
+         "Kia Connect Skill on Amazon Alexa",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "All Door Speakers, Front Tweeters",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTX+",
+    "name": "Kia Seltos Specifications HTX+",
+    "image": "/wp-content/uploads/2023/10/htx-seltos-1.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1645mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "Panoramic Sunroof",
+         "Crown Jewel LED Headlamps with Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators with Ice Cube LED Fog Lamps",
+         "R17 43.66 cm Crystal Cut Alloy Wheels",
+         "26.03 cm (10.25”) HD Touchscreen Navigation with Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Front Ventilated Seats",
+         "8-way Power Driver’s Seat Adjustment",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "BOSE Premium Sound System with 8 Speakers"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363A",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#B2001E",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#2B2C71",
+          "name": "Imperial Blue"
+         },
+         {
+          "swatch": "#3E493B",
+          "name": "Pewter Olive (New)"
+         },
+         {
+          "swatch": "#F4F9FB",
+          "name": "Glacier White Pearl"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors with Brown Inserts"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1645mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 T-GDi 6iMT",
+         "Smartstream G1.5 T-GDi 7DCT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown Jewel LED Headlamps",
+         "Star Map LED DRL’S",
+         "Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators",
+         "Ice Cube LED Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Glossy Black Radiator Grille with Knurled Chrome Surround",
+         "R17 43.66 cm Crystal Cut Alloy Wheels",
+         "Glossy Black Rear Spoiler",
+         "Chrome Beltline Garnish",
+         "Sharkfin Antenna",
+         "Silver Roof Rack",
+         "Chrome Outside Door Handle",
+         "Front & Rear Mud Guard"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps",
+         "Brown Leatherette Seats with Geometric Pattern",
+         "Soft Touch Dashboard Garnish with Stitch Pattern",
+         "Leatherette Wrapped D-Cut Steering Wheel with Seltos Logo",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps",
+         "Leatherette Center Console Armrest, Door Armrest and Door Center Trim",
+         "Metal Scuff Plates with Seltos Logo"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ISOFIX Child Anchor and Adjustable Rear Headrests (x3)",
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt & Telescopic Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "All Door Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer",
+         "Ambient Lighting",
+         "Auto Anti-Glare Inside Rear View Mirror with Kia Connect Button",
+         "Front Seat Back Pockets with Passenger Side Upper Pocket",
+         "60:40 Seat Back Split Fold with Rear Reclining Seats",
+         "Rear Center Armrest with Cup Holders",
+         "Paddle Shifters (DCT)",
+         "Drive Mode Select [Eco/ Normal/ Sport] (DCT)",
+         "Traction Control Mode [Sand/ Mud / Snow] (DCT)",
+         "Front Ventilated Seats",
+         "8-way Power Driver’s Seat Adjustment",
+         "Solar Glass – UV Cut (Front Windshield, All Door Windows)",
+         "BOSE Premium Sound system with 8 Speakers"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Smartphone Wireless Charger",
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation",
+         "Wired Android Auto & Apple Carplay",
+         "Kia Connect with OTA Maps & System Update",
+         "AI Voice Recognition System",
+         "Kia Connect Skill on Amazon Alexa",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "GTX+(S)",
+    "name": "Kia Seltos Specifications GTX+(S)",
+    "image": "/wp-content/uploads/2023/10/gtxs-seltos.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1645mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS 2.0 with 17 Features",
+         "Panoramic Sunroof",
+         "Crown Jewel LED Headlamps with Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators with Ice Cube LED Fog Lamps",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "26.03 cm (10.25”) HD Touchscreen Navigation with Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Front Ventilated Seats with 8 Way Power Driver’s Seat Adjustment",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Electric Parking Brake with Auto Hold"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363A",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#B2001E",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#2B2C71",
+          "name": "Imperial Blue"
+         },
+         {
+          "swatch": "#3E493B",
+          "name": "Pewter Olive (New)"
+         },
+         {
+          "swatch": "#F4F9FB",
+          "name": "Glacier White Pearl"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors with Brown Inserts"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1645mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 T-GDi 7DCT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown Jewel LED Headlamps",
+         "Star Map LED DRL’S",
+         "Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators",
+         "Ice Cube LED Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Glossy Black Radiator Grille with Knurled Chrome Surround",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "Glossy Black Rear Spoiler",
+         "Chrome Beltline Garnish",
+         "Sharkfin Antenna",
+         "Grey Front & Rear Skid Plates",
+         "Glossy Black Roof Rack",
+         "Chrome Outside Door Handle",
+         "Front & Rear Mud Guard",
+         "Body Color Front & Rear Bumper Inserts",
+         "Dual Sports Exhaust (G1.5T Only)",
+         "GT Line Exclusive Front & Rear Body Kit"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps",
+         "Black Leatherette Seats with White Inserts and Tubular Pattern",
+         "Soft Touch Dashboard Garnish with Stitch Pattern",
+         "Leatherette Wrapped D-Cut Steering Wheel with GT Line Logo",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps",
+         "Leatherette Center Console Armrest, Door Armrest and Door Center Trim",
+         "Metal Scuff Plates with Seltos Logo",
+         "All Black Interiors with Sporty White Inserts",
+         "Sporty Alloy Pedals",
+         "Premium Sliding Cup Holder Cover",
+         "Sporty All Black Roof Lining"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS Level 2 with 17 Autonomous Features – Forward Collision Warning and Forward Collision Avoidance Assist [ Car, Pedestrian, Cyclist, Junction Turning ] – Lane Departure Warning, Lane Keep Assist & Lane Following Assist – Smart Cruise Control with Stop & Go & Leading Vehicle Departure Alert – High Beam Assist, Driver Attention Warning & Safe Exit Warning – Blind Spot Collision Warning, Blind Spot Collision Avoidance Assist – Rear Cross Traffic Warning, Rear Cross Traffic Collision Avoidance Assist",
+         "ISOFIX Child Anchor and Adjustable Rear Headrests (x3)",
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Locks",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt & Telescopic Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "All Door Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer",
+         "Ambient Lighting",
+         "Auto Anti-Glare Inside Rear View Mirror with Kia Connect Button",
+         "Front Seat Back Pockets with Passenger Side Upper Pocket",
+         "60:40 Seat Back Split Fold with Rear Reclining Seats",
+         "Rear Center Armrest with Cup Holders",
+         "Paddle Shifters",
+         "Drive Mode Select [Eco/ Normal/ Sport]",
+         "Traction Control Mode [Sand/ Mud / Snow]",
+         "Front Ventilated Seats",
+         "8-way Power Driver’s Seat Adjustment",
+         "Solar Glass – UV Cut (Front Windshield, All Door Windows)",
+         "Electric Parking Brake with Auto Hold",
+         "Rain Sensing Wipers"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Smartphone Wireless Charger",
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation",
+         "Wired Android Auto & Apple Carplay",
+         "Kia Connect with OTA Maps & System Update",
+         "AI Voice Recognition System",
+         "Kia Connect Skill on Amazon Alexa",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "All Door Speakers, Front Tweeters",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "GTX+",
+    "name": "Kia Seltos Specifications GTX+",
+    "image": "/wp-content/uploads/2023/10/gtx-seltos.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1645mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS 2.0 with 17 Features",
+         "Panoramic Sunroof",
+         "Crown Jewel LED Headlamps with Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators with Ice Cube LED Fog Lamps",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "26.03 cm (10.25”) HD Touchscreen Navigation with Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Front Ventilated Seats with 8 Way Power Driver’s Seat Adjustment",
+         "360 Degree Camera with Blind View Monitor in Cluster",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "BOSE Premium Sound System with 8 Speakers",
+         "Electric Parking Brake with Auto Hold"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#2b2c71",
+          "name": "Imperial Blue"
+         },
+         {
+          "swatch": "#3e493b",
+          "name": "Pewter Olive (New)"
+         },
+         {
+          "swatch": "#f4f9fb",
+          "name": "Glacier White Pearl"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors with Brown Inserts"
+         }
+        ]
+       },
+       {
+        "title": "Dual Tone",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, #e4e0e0 50%)",
+          "name": "Glacier white Pearl + Aurora black pearl"
+         },
+         {
+          "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, rgba(150,4,4,1) 50%)",
+          "name": "Intense Red + Aurora black pearl"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1645mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 T-GDi 7DCT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown Jewel LED Headlamps",
+         "Star Map LED DRL’S",
+         "Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators",
+         "Ice Cube LED Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Glossy Black Radiator Grille with Knurled Chrome Surround",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "Glossy Black Rear Spoiler",
+         "Chrome Beltline Garnish",
+         "Sharkfin Antenna",
+         "Grey Front & Rear Skid Plates",
+         "Glossy Black Roof Rack",
+         "Chrome Outside Door Handle",
+         "Front & Rear Mud Guard",
+         "Body Color Front & Rear Bumper Inserts",
+         "Dual Sports Exhaust (G1.5T Only)",
+         "GT Line Exclusive Front & Rear Body Kit"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps",
+         "Black Leatherette Seats with White Inserts and Tubular Pattern",
+         "Soft Touch Dashboard Garnish with Stitch Pattern",
+         "Leatherette Wrapped D-Cut Steering Wheel with GT Line Logo",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps",
+         "Leatherette Center Console Armrest, Door Armrest and Door Center Trim",
+         "Metal Scuff Plates with Seltos Logo",
+         "All Black Interiors with Sporty White Inserts",
+         "Sporty Alloy Pedals",
+         "Premium Sliding Cup Holder Cover",
+         "Sporty All Black Roof Lining"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS Level 2 with 17 Autonomous Features – Forward Collision Warning and Forward Collision Avoidance Assist [ Car, Pedestrian, Cyclist, Junction Turning ] – Lane Departure Warning, Lane Keep Assist & Lane Following Assist – Smart Cruise Control with Stop & Go & Leading Vehicle Departure Alert – High Beam Assist, Driver Attention Warning & Safe Exit Warning – Blind Spot Collision Warning, Blind Spot Collision Avoidance Assist – Rear Cross Traffic Warning, Rear Cross Traffic Collision Avoidance Assist",
+         "ISOFIX Child Anchor and Adjustable Rear Headrests (x3)",
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Locks",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt & Telescopic Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "All Door Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer",
+         "Ambient Lighting",
+         "Auto Anti-Glare Inside Rear View Mirror with Kia Connect Button",
+         "Front Seat Back Pockets with Passenger Side Upper Pocket",
+         "60:40 Seat Back Split Fold with Rear Reclining Seats",
+         "Rear Center Armrest with Cup Holders",
+         "Paddle Shifters",
+         "Drive Mode Select [Eco/ Normal/ Sport]",
+         "Traction Control Mode [Sand/ Mud / Snow]",
+         "Front Ventilated Seats",
+         "8-way Power Driver’s Seat Adjustment",
+         "Solar Glass – UV Cut (Front Windshield, All Door Windows)",
+         "BOSE Premium Sound system with 8 Speakers",
+         "360 Degree Camera with Blind View Monitor in Cluster",
+         "Electric Parking Brake with Auto Hold",
+         "Rain Sensing Wipers"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Smartphone Wireless Charger",
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation",
+         "Wired Android Auto & Apple Carplay",
+         "Kia Connect with OTA Maps & System Update",
+         "AI Voice Recognition System",
+         "Kia Connect Skill on Amazon Alexa",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "X-Line(S)",
+    "name": "Kia Seltos Specifications X Line(S)",
+    "image": "/wp-content/uploads/2023/10/x-lines-seltos.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1645mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS 2.0 with 17 Features",
+         "Panoramic Sunroof",
+         "Crown Jewel LED Headlamps with Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators with Ice Cube LED Fog Lamps",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "26.03 cm (10.25”) HD Touchscreen Navigation with Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Front Ventilated Seats with 8 Way Power Driver’s Seat Adjustment",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Smart 20.32 cm (8.0”) Heads-Up Display"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#262C30",
+          "name": "Xclusive Matte Graphite"
+         }
+        ]
+       },
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors with Sage Green Inserts"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1645mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 T-GDi 7DCT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown Jewel LED Headlamps",
+         "Star Map LED DRL’S",
+         "Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators",
+         "Ice Cube LED Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Matt Graphite Radiator Grille with Knurled Glossy Black Surround",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "Glossy Black Rear Spoiler",
+         "Chrome Beltline Garnish",
+         "Sharkfin Antenna",
+         "Glossy Black Roof Rack",
+         "Matt Graphite Outside Door Handle",
+         "Front & Rear Mud Guard",
+         "Body Color Front & Rear Bumper Inserts",
+         "Dual Sports Exhaust (G1.5T Only)",
+         "X Line Exclusive Front & Rear Body Kit",
+         "Glossy Black ORVM",
+         "Glossy Black Front & Rear Skid Plates"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps",
+         "Sage Green Leatherette Seats with Chevron Pattern",
+         "Soft Touch Dashboard Garnish with Stitch Pattern",
+         "Leatherette Wrapped D-Cut Steering Wheel with Seltos Logo",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps",
+         "Leatherette Center Console Armrest, Door Armrest and Door Center Trim",
+         "Metal Scuff Plates with Seltos Logo",
+         "All Black Interiors with Sporty White Inserts",
+         "Sporty Alloy Pedals",
+         "Premium Sliding Cup Holder Cover",
+         "Sporty All Black Roof Lining"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS Level 2 with 17 Autonomous Features – Forward Collision Warning and Forward Collision Avoidance Assist [ Car, Pedestrian, Cyclist, Junction Turning ] – Lane Departure Warning, Lane Keep Assist & Lane Following Assist – Smart Cruise Control with Stop & Go & Leading Vehicle Departure Alert – High Beam Assist, Driver Attention Warning & Safe Exit Warning – Blind Spot Collision Warning, Blind Spot Collision Avoidance Assist – Rear Cross Traffic Warning, Rear Cross Traffic Collision Avoidance Assist",
+         "ISOFIX Child Anchor and Adjustable Rear Headrests (x3)",
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt & Telescopic Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "All Door Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer",
+         "Ambient Lighting",
+         "Auto Anti-Glare Inside Rear View Mirror with Kia Connect Button",
+         "Front Seat Back Pockets with Passenger Side Upper Pocket",
+         "60:40 Seat Back Split Fold with Rear Reclining Seats",
+         "Rear Center Armrest with Cup Holders",
+         "Paddle Shifters",
+         "Drive Mode Select [Eco/ Normal/ Sport]",
+         "Traction Control Mode [Sand/ Mud / Snow]",
+         "Front Ventilated Seats",
+         "8-way Power Driver’s Seat Adjustment",
+         "Solar Glass – UV Cut (Front Windshield, All Door Windows)",
+         "Electric Parking Brake with Auto Hold",
+         "Rain Sensing Wipers"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Smart 20.32 cm (8.0”) Heads-Up Display",
+         "Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Smartphone Wireless Charger",
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation",
+         "Wired Android Auto & Apple Carplay",
+         "Kia Connect with OTA Maps & System Update",
+         "AI Voice Recognition System",
+         "Kia Connect Skill on Amazon Alexa",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "All Door Speakers, Front Tweeters",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "X-Line",
+    "name": "Kia Seltos Specifications X Line",
+    "image": "/wp-content/uploads/2023/10/x-line-seltos.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "4365mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1800mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1645mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS 2.0 with 17 Features",
+         "Panoramic Sunroof",
+         "Crown Jewel LED Headlamps with Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators with Ice Cube LED Fog Lamps",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "26.03 cm (10.25”) HD Touchscreen Navigation with Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Front Ventilated Seats with 8 Way Power Driver’s Seat Adjustment",
+         "360 Degree Camera with Blind View Monitor in Cluster",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "BOSE Premium Sound System with 8 Speakers",
+         "Smart 20.32 cm (8.0”) Heads-Up Display"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#262c30",
+          "name": "Xclusive Matte Graphite"
+         }
+        ]
+       },
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "All Black Interiors with Sage Green Inserts"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "4365mm"
+         ],
+         [
+          "Overall Length",
+          "1645mm (with roof rack)"
+         ],
+         [
+          "Overall Width",
+          "1800mm"
+         ],
+         [
+          "Wheelbase",
+          "2610mm"
+         ],
+         [
+          "Boot space",
+          "433l"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.5 T-GDi 7DCT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown Jewel LED Headlamps",
+         "Star Map LED DRL’S",
+         "Star Map LED Sweeping Light Guide",
+         "Star Map LED Connected Tail Lamps",
+         "Sequential LED Turn Indicators",
+         "Ice Cube LED Fog Lamps",
+         "Turn Signal on Outside Rear-View Mirrors",
+         "Matt Graphite Radiator Grille with Knurled Glossy Black Surround",
+         "R18 46.20 cm Crystal Cut Glossy Black Alloy Wheels",
+         "Glossy Black Rear Spoiler",
+         "Chrome Beltline Garnish",
+         "Sharkfin Antenna",
+         "Glossy Black Roof Rack",
+         "Matt Graphite Outside Door Handle",
+         "Front & Rear Mud Guard",
+         "Body Color Front & Rear Bumper Inserts",
+         "Dual Sports Exhaust (G1.5T Only)",
+         "X Line Exclusive Front & Rear Body Kit",
+         "Glossy Black ORVM",
+         "Glossy Black Front & Rear Skid Plates"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Dual Pane Panoramic Sunroof",
+         "LED Front Map Lamps & Ice Cube LED Reading Lamps",
+         "Sage Green Leatherette Seats with Chevron Pattern",
+         "Soft Touch Dashboard Garnish with Stitch Pattern",
+         "Leatherette Wrapped D-Cut Steering Wheel with Seltos Logo",
+         "Silver Painted Inside Door Handles",
+         "Leatherette Wrapped Gear Knob",
+         "Sound Mood Lamps",
+         "Leatherette Center Console Armrest, Door Armrest and Door Center Trim",
+         "Metal Scuff Plates with Seltos Logo",
+         "All Black Interiors with Sporty White Inserts",
+         "Sporty Alloy Pedals",
+         "Premium Sliding Cup Holder Cover",
+         "Sporty All Black Roof Lining"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "ADAS Level 2 with 17 Autonomous Features – Forward Collision Warning and Forward Collision Avoidance Assist [ Car, Pedestrian, Cyclist, Junction Turning ] – Lane Departure Warning, Lane Keep Assist & Lane Following Assist – Smart Cruise Control with Stop & Go & Leading Vehicle Departure Alert – High Beam Assist, Driver Attention Warning & Safe Exit Warning – Blind Spot Collision Warning, Blind Spot Collision Avoidance Assist ‘- Rear Cross Traffic Warning, Rear Cross Traffic Collision Avoidance Assist",
+         "ISOFIX Child Anchor and Adjustable Rear Headrests (x3)",
+         "Front Parking Sensors",
+         "Auto Light Control",
+         "6 Airbags (Front , Side & Curtain Airbags)",
+         "ABS (Anti-lock Brake System)",
+         "BAS (Brake Force Assist System)",
+         "All Wheel Disc Brakes",
+         "ESC (Electronis Stability Control)",
+         "VSM (Vehicle Stability Management)",
+         "HAC (Hill-start Assist Control)",
+         "ESS (Emergency Stop Signal)",
+         "Highline Tire Pressure Monitor",
+         "Rear Parking Sensors",
+         "Speed Sensing Auto Door Lock",
+         "Impact Sensing Auto Door Unlock",
+         "Front & Rear All Seat 3 Point Seat Belts with Reminder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Tilt & Telescopic Steering Wheel",
+         "Gear Shift Indicator ([MT/iMT])",
+         "All Doors Power Windows with Illumination",
+         "Headlamp Escort Function",
+         "Sunglass Holder",
+         "Passenger Side Sunvisor Mirror",
+         "Retractable Roof Assist Handle",
+         "Rear Door Sunshade Curtain",
+         "Driver Seat Height Adjustment",
+         "Front Row Seat Belt Height Adjuster",
+         "Adjustable Front Headrests",
+         "Rear AC Vent",
+         "All Door Power Window Auto Up/Down with Safety",
+         "Luggage Lamps",
+         "Rear View Camera with Dynamic Guidelines",
+         "Driver Rear View Monitor",
+         "Electric Adjustable & Folding Outside Rear View Mirror with Auto Fold",
+         "Smart Key with Push Button Start/Stop",
+         "Dual Zone Fully Automatic Air Conditioner",
+         "Rear Parcel Tray",
+         "Rear Defogger",
+         "Cruise Control",
+         "Manual Speed Limit Assist",
+         "Rear Wiper and Washer",
+         "Ambient Lighting",
+         "Auto Anti-Glare Inside Rear View Mirror with Kia Connect Button",
+         "Front Seat Back Pockets with Passenger Side Upper Pocket",
+         "60:40 Seat Back Split Fold with Rear Reclining Seats",
+         "Rear Center Armrest with Cup Holders",
+         "Paddle Shifters",
+         "Drive Mode Select [Eco/ Normal/ Sport]",
+         "Traction Control Mode [Sand/ Mud / Snow]",
+         "Front Ventilated Seats",
+         "8-way Power Driver’s Seat Adjustment",
+         "Solar Glass – UV Cut (Front Windshield, All Door Windows)",
+         "BOSE Premium Sound system with 8 Speakers",
+         "360 Degree Camera with Blind View Monitor in Cluster",
+         "Electric Parking Brake with Auto Hold",
+         "Rain Sensing Wipers"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Smart 20.32 cm (8.0”) Heads-Up Display",
+         "Full Digital Cluster with 26.04 cm (10.25”) Color LCD MID",
+         "Smartphone Wireless Charger",
+         "Smart Pure Air Purifier with Virus and Bacteria Protection**",
+         "26.03 cm (10.25”) HD Touchscreen Navigation",
+         "Wired Android Auto & Apple Carplay",
+         "Kia Connect with OTA Maps & System Update",
+         "AI Voice Recognition System",
+         "Kia Connect Skill on Amazon Alexa",
+         "Steering Mounted Audio Controls",
+         "Bluetooth, USB A Port",
+         "C-Type USB Charger (Front x1 and Rear x2)",
+         "Front 12V Power Outlet",
+         "Smart Key Remote Engine Start/Stop"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "kia-sonet-specifications-hte": {
+  "slug": "kia-sonet-specifications-hte",
+  "model": "Sonet",
+  "title": "Kia Sonet Specifications HTE - Kia Bhutan",
+  "trims": [
+   {
+    "tab": "HTE",
+    "name": "Kia Sonet Specifications HTE",
+    "image": "/wp-content/uploads/2023/10/HTE-sonet-1.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1610mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": []
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#eaeeef",
+          "name": "Clear White"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "Black one tone"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1610mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.2 5MT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "R15 Wheel cover",
+         "Kia Signature Tiger nose grill",
+         "Radiator grille silver with Diamond knurling pattern",
+         "Muscular front skid plates",
+         "Muscular rear skid plates",
+         "Side molding – Black",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Body colour outside door handle",
+         "Halogen headlamps",
+         "Heartbeat tail lamps",
+         "Pole type antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Silver finish AC vents garnish",
+         "Premium Head lining",
+         "Inside door handle Hyper silver metallic paint",
+         "Semi Leatherette seats with white stitching – Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Fixed type front armrest with storage box",
+         "Assist grips",
+         "Room lamp (Bulb type)",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Day and night rear view mirror",
+         "Electric adjust outside mirror",
+         "Manual air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "8.89 cm (3.5″) Mono color instrument cluster"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTK",
+    "name": "Kia Sonet Specifications HTK",
+    "image": "/wp-content/uploads/2023/10/HTk-sonet-1.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1625mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Front (Driver and Passenger) airbags, Side Airbags",
+         "9.6 cm (3.8″) 2 DIN Audio w/ 4 speakers",
+         "High Tyre pressure monitoring system",
+         "Driver seat height adjust",
+         "R16 – 40.64 cm (16”) Metallic Silver Styled Wheels",
+         "Semi Leatherette seats with Silver stitching – Black",
+         "Steering mounted controls",
+         "Sunglass holder"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#eaeeef",
+          "name": "Clear White"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "Black one tone"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1625mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.2 5MT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "R16 Metallic silver Styled wheels",
+         "Kia Signature Tiger nose grill",
+         "Radiator grille silver with Diamond knurling pattern",
+         "Muscular front skid plates",
+         "Muscular rear skid plates",
+         "Side molding – Black",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Body colour outside door handle",
+         "Halogen headlamps",
+         "Heartbeat tail lamps",
+         "Pole type antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Silver finish AC vents garnish",
+         "Premium Head lining",
+         "Inside door handle Hyper silver metallic paint",
+         "Semi Leatherette seats with white stitching – Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Fixed type front armrest with storage box",
+         "Assist grips",
+         "Room lamp (Bulb type)",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Day and night rear view mirror",
+         "Electric adjust outside mirror",
+         "Manual air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "9.6 cm (3.8″) 2 DIN Audio",
+         "4 speakers",
+         "Bluetooth",
+         "Steering mounted Audio control",
+         "8.89 cm (3.5″) Mono color instrument cluster"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTK+",
+    "name": "Kia Sonet Specifications HTK+",
+    "image": "/wp-content/uploads/2023/10/HTKsonet.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1642mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "20.32 cm (8.0″) Touchscreen with 4 speakers and 2 tweeters",
+         "Android Auto and Apple carplay (Wireless phone projection)",
+         "Electric Sunroof (G1.2 & G1.0T)",
+         "Fully automatic Air conditioner",
+         "Projector Fog lamps",
+         "Electric folding outside mirrors",
+         "Push button start (G1.0T & D1.5)",
+         "Muscular front and rear silver skid plates"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#eaeeef",
+          "name": "Clear White"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#2b2c71",
+          "name": "Imperial Blue"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#000000",
+          "name": "Black one tone"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1642mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.2 5MT",
+         "Smartstream G1.0 T-GDi 6iMT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "R16 Metallic silver Styled wheels",
+         "Kia Signature Tiger nose grill – Black colour",
+         "Radiator grille chrome with Diamond knurling pattern",
+         "Muscular front silver paint skid plates",
+         "Muscular rear silver skid plates",
+         "Side molding – Black",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Outside mirror LED turn signal",
+         "Body colour outside door handle",
+         "Chrome outside door handle",
+         "Floating type Roof rails",
+         "Electric Sunroof (G1.2 & G1.0T)",
+         "Halogen headlamps",
+         "Heartbeat tail lamps",
+         "Shark fin antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Silver finish AC vents garnish",
+         "Premium Head lining",
+         "Inside door handle Hyper silver metallic paint",
+         "Semi Leatherette seats with white stitching – Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Fixed type front armrest with storage box",
+         "Assist grips",
+         "Room lamp (Bulb type)",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Day and night rear view mirror",
+         "Electric adjust outside mirror",
+         "Manual air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "20.32 cm (8.0″) Touchscreen",
+         "Android Auto",
+         "Apple Carplay",
+         "Wireless phone projection",
+         "4 speakers",
+         "2 Tweeter",
+         "Bluetooth",
+         "Bluetooth multi connection",
+         "Steering mounted Audio control",
+         "8.89 cm (3.5″) Mono color instrument cluster",
+         "Rear view camera with guidelines",
+         "Driving rear view monitor"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTX",
+    "name": "Kia Sonet Specifications HTX",
+    "image": "/wp-content/uploads/2023/10/htx-sonet.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1642mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Crown jewel LED headlamps with Heartbeat LED DRL",
+         "Heartbeat LED tail lamps",
+         "ESC/ VSM/ HAC",
+         "Electric sunroof",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Leatherette wrapped D-cut steering wheel with Sonet logo",
+         "Rear Door Sunshade curtain",
+         "Semi Leatherette seats with Silver stitching – Beige & Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#eaeeef",
+          "name": "Glacier White Pearl"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#2b2c71",
+          "name": "Imperial Blue"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#C3BCAC",
+          "name": "Black and Beige Two Tone"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1642mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.0 T-GDi 6iMT",
+         "Smartstream G1.0 T-GDi 7DCT",
+         "1.5L CRDi VGT 6iMT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "R16 Crystal cut alloys",
+         "Premium silver center wheel caps",
+         "Kia Signature Tiger nose grill – Black colour",
+         "Radiator grille chrome with Diamond knurling pattern",
+         "Rear bumper with dual muffler design",
+         "Muscular front silver paint skid plates",
+         "Diffuser fin rear skid plates",
+         "Side molding – Black",
+         "Silver door garnish",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Outside mirror LED turn signal",
+         "Chrome outside door handle",
+         "Floating type Roof rails",
+         "Electric Sunroof",
+         "Crown Jewel LED headlamps",
+         "Heartbeat LED DRL with integrated indicators",
+         "Heartbeat LED tail lamps",
+         "Shark fin antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Leatherette wrapped D-cut steering wheel with Sonet logo",
+         "Silver finish AC vents garnish",
+         "Connected Infotainment and cluster design – High gloss black",
+         "Leatherette wrapped gear knob",
+         "Premium Head lining",
+         "Leatherette wrapped Door armrest",
+         "Inside door handle Hyper silver metallic paint",
+         "Semi Leatherette seats with Silver stitching – Beige & Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Fixed type front armrest with storage box",
+         "Assist grips",
+         "Room lamp (Bulb type)",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Day and night rear view mirror",
+         "Electric adjust outside mirror",
+         "Manual air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "20.32 cm (8.0″) Touchscreen",
+         "Android Auto",
+         "Apple Carplay",
+         "Wireless phone projection",
+         "4 speakers",
+         "2 Tweeter",
+         "Bluetooth",
+         "Bluetooth multi connection",
+         "Steering mounted Audio control",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Rear view camera with guidelines",
+         "Driving rear view monitor",
+         "Traction modes – Sand/ Mud/ Wet",
+         "Multi drive modes – Normal/ Eco/ Sports",
+         "Paddle shifters"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTX AE",
+    "name": "Kia Sonet Specifications HTX AE",
+    "image": "/wp-content/uploads/2023/10/htx-ae-sonet.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1642mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Aurochs Front skid plate with Tangerine accents",
+         "Aurochs Rear skid plate with Tangerine accents",
+         "Aurochs Side Skid plates – LH/RH",
+         "Electric sunroof",
+         "Kia Signature Tiger nose grille – Black high glossy with Aurochs edition emblem",
+         "Heartbeat LED tail lamps",
+         "Crown jewel LED headlamps with Heartbeat LED DRL",
+         "Semi Leatherette seats with Silver stitching – Beige & Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#eaeeef",
+          "name": "Glacier White Pearl"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#c3bcac",
+          "name": "Black and Beige Two Tone"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1642mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.0 T-GDi 6iMT",
+         "Smartstream G1.0 T-GDi 7DCT",
+         "1.5L CRDi VGT 6iMT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "R16 Crystal cut alloys",
+         "Tangerine center wheel caps",
+         "Kia Signature Tiger nose grill – Black high glossy with Aurochs edition emblem and hot stamped Tangerine accents",
+         "Radiator grille chrome with Diamond knurling pattern",
+         "Rear bumper with dual muffler design",
+         "Aurochs Front skid plate with Tangerine accents",
+         "Aurochs Rear skid plate with Tangerine accents",
+         "Side molding – Black",
+         "Tangerine door garnish",
+         "Aurochs Side Skid plates – LH",
+         "Aurochs Side Skid plates – RH",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Outside mirror LED turn signal",
+         "Chrome outside door handle",
+         "Floating type Roof rails",
+         "Electric Sunroof",
+         "Crown Jewel LED headlamps",
+         "Heartbeat LED DRL with integrated indicators",
+         "Heartbeat LED tail lamps",
+         "Shark fin antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Leatherette wrapped D-cut steering wheel with Sonet logo",
+         "Silver finish AC vents garnish",
+         "Connected Infotainment and cluster design – High gloss black",
+         "Leatherette wrapped gear knob",
+         "Premium Head lining",
+         "Leatherette wrapped Door armrest",
+         "Inside door handle Hyper silver metallic paint",
+         "Semi Leatherette seats with Silver stitching – Beige & Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Projector fog lamps",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "Auto headlamps",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Rear Door power windows",
+         "Driver one touch Auto up/ down with anti pinch function",
+         "Rear Defogger",
+         "Follw me home headlamps",
+         "Fixed type front armrest with storage box",
+         "Sunglass holder",
+         "Assist grips",
+         "Coat hook",
+         "Rear parcel shelf",
+         "Room lamp (Bulb type)",
+         "Console lamp (Bulb type)",
+         "Luggage lamp (Bulb type)",
+         "Driver seat height adjust (Manual)",
+         "Lower full size seatback pocket (Passenger)",
+         "Passenger seatback upper pocket",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Rear door sun-shade curtain",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Remote engine start on smart key",
+         "Smart key with push button start",
+         "Day and night rear view mirror",
+         "Electric adjust outside mirror",
+         "Electric folding outside mirror",
+         "Cruise control",
+         "Fully automatic Air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "20.32 cm (8.0″) Touchscreen",
+         "Android Auto",
+         "Apple Carplay",
+         "Wireless phone projection",
+         "4 speakers",
+         "2 Tweeter",
+         "Bluetooth",
+         "Bluetooth multi connection",
+         "Steering mounted Audio control",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Rear view camera with guidelines",
+         "Driving rear view monitor",
+         "Traction modes – Sand/ Mud/ Wet",
+         "Multi drive modes – Normal/ Eco/ Sports",
+         "Paddle shifters"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "HTX+",
+    "name": "Kia Sonet Specifications HTX+",
+    "image": "/wp-content/uploads/2023/10/htxsonet.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1642mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "BOSE premium 7 speaker system",
+         "Six Airbags",
+         "26.03 cm (10.25″) HD Touchscreen Navigation",
+         "Kia connected car with OTA",
+         "Ventilated Driver and Passenger seats",
+         "Smart Pure Air purifier",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Leatherette seats with Silver stitching – Beige & Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#eaeeef",
+          "name": "Glacier White Pearl"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#2b2c71",
+          "name": "Imperial Blue"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#c3bcac",
+          "name": "Black and Beige Two Tone"
+         }
+        ]
+       },
+       {
+        "title": "Dual Tone",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, #e4e0e0 50%)",
+          "name": "Glacier white Pearl + Aurora black pearl"
+         },
+         {
+          "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, rgba(150,4,4,1) 50%)",
+          "name": "Intense Red + Aurora black pearl"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1642mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.0 T-GDi 6iMT",
+         "1.5L CRDi VGT 6iMT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "R16 Crystal cut alloys",
+         "Premium silver center wheel caps",
+         "Kia Signature Tiger nose grill – Black colour",
+         "Radiator grille chrome with Diamond knurling pattern",
+         "Rear bumper with dual muffler design",
+         "Muscular front silver paint skid plates",
+         "Diffuser fin rear skid plates",
+         "Side molding – Black",
+         "Silver door garnish",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Outside mirror LED turn signal",
+         "Chrome outside door handle",
+         "Floating type Roof rails",
+         "Electric Sunroof",
+         "Crown Jewel LED headlamps",
+         "Heartbeat LED DRL with integrated indicators",
+         "Heartbeat LED tail lamps",
+         "Shark fin antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Leatherette wrapped D-cut steering wheel with Sonet logo",
+         "Silver finish AC vents garnish",
+         "Connected Infotainment and cluster design – High gloss black",
+         "Leatherette wrapped gear knob",
+         "Premium Head lining",
+         "Leatherette wrapped Door armrest",
+         "Inside door handle Hyper silver metallic paint",
+         "LED sound mood lights",
+         "Leatherette seats with Silver stitching – Beige & Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "Curtain Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Projector fog lamps",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "Auto headlamps",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Rear Door power windows",
+         "Driver one touch Auto up/ down with anti pinch function",
+         "Rear Defogger",
+         "Rear wiper & washer",
+         "Follw me home headlamps",
+         "Fixed type front armrest with storage box",
+         "Sunglass holder",
+         "Assist grips",
+         "Coat hook",
+         "Rear parcel shelf",
+         "Room lamp (Bulb type)",
+         "Luggage lamp (Bulb type)",
+         "Driver seat height adjust (Manual)",
+         "Lower full size seatback pocket (Driver)",
+         "Lower full size seatback pocket (Passenger)",
+         "Passenger seatback upper pocket",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Rear door sun-shade curtain",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Remote engine start on smart key",
+         "Smart key with push button start",
+         "Auto antiglare (ECM) rear view mirror with Kia Connect controls",
+         "Electric adjust outside mirror",
+         "Electric folding outside mirror",
+         "Cruise control",
+         "Fully automatic Air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "26.03 cm (10.25″) HD Touchscreen Navigation",
+         "Android Auto",
+         "Apple Carplay",
+         "Kia Connect with OTA#",
+         "Smartwatch connectivity",
+         "BOSE premium 7 speaker system with dynamic speed compensation",
+         "4 speakers",
+         "2 Tweeter",
+         "Sub woofer",
+         "Bluetooth",
+         "Bluetooth multi connection",
+         "Voice recognition with “Hello Kia”",
+         "Steering mounted Audio control",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Rear view camera with guidelines",
+         "Driving rear view monitor",
+         "Ventilated Driver seat",
+         "Ventilated Passenger seat",
+         "Smart Pure Air Purifier with Virus protection"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "GTX+",
+    "name": "Kia Sonet Specifications GTX+",
+    "image": "/wp-content/uploads/2023/10/gtx-sonet.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1642mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "BOSE premium 7 speaker system",
+         "Six Airbags",
+         "GT line",
+         "26.03 cm (10.25″) HD Touchscreen Navigation",
+         "Kia connected car with OTA",
+         "Ventilated Driver and Passenger seats",
+         "Smart Pure Air purifier",
+         "Advance 10.67 cm (4.2″) Color instrument cluster"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#b2001e",
+          "name": "Intense Red"
+         },
+         {
+          "swatch": "#eaeeef",
+          "name": "Glacier White Pearl"
+         },
+         {
+          "swatch": "#e0e0df",
+          "name": "Sparkling Silver"
+         },
+         {
+          "swatch": "#35363a",
+          "name": "Gravity Grey"
+         },
+         {
+          "swatch": "#000000",
+          "name": "Aurora Black Pearl"
+         },
+         {
+          "swatch": "#2b2c71",
+          "name": "Imperial Blue"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#c3bcac",
+          "name": "Black and Beige Two Tone"
+         }
+        ]
+       },
+       {
+        "title": "Dual Tone",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, #e4e0e0 50%)",
+          "name": "Glacier white Pearl + Aurora black pearl"
+         },
+         {
+          "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, rgba(150,4,4,1) 50%)",
+          "name": "Intense Red + Aurora black pearl"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1642mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.0 T-GDi 6iMT",
+         "Smartstream G1.0 T-GDi 7DCT",
+         "1.5L CRDi VGT 6iMT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Red brake caliper – Front",
+         "R16 Crystal cut alloys",
+         "Sporty Red center wheel caps",
+         "Kia Signature Tiger nose grill – Black high glossy with GT line logo and Red accents",
+         "Radiator grille chrome with Diamond knurling pattern",
+         "Front bumper with Sporty Red accent",
+         "Rear bumper with dual muffler design and Red accent",
+         "Turbo shaped masculine skid plates",
+         "Diffuser fin rear skid plates",
+         "Side molding – Black",
+         "Red door garnish",
+         "Belt line chrome",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Outside mirror LED turn signal",
+         "Chrome outside door handle",
+         "Floating type Roof rails",
+         "Electric Sunroof",
+         "Crown Jewel LED headlamps",
+         "Heartbeat LED DRL with integrated indicators",
+         "Heartbeat LED tail lamps",
+         "Shark fin antenna"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Leatherette wrapped D-cut steering wheel with GT line logo",
+         "High gloss black finish AC vents garnish",
+         "Connected Infotainment and cluster design – High gloss black",
+         "Sporty alloy pedals",
+         "Leatherette wrapped gear knob",
+         "Premium Head lining",
+         "Leatherette wrapped Door armrest",
+         "Inside door handle Hyper silver metallic paint",
+         "LED sound mood lights",
+         "Leatherette Sports seats with Red stitching – Black"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "Curtain Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Projector fog lamps",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "Front parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "Auto headlamps",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Rear Door power windows",
+         "Driver one touch Auto up/ down with anti pinch function",
+         "Rear Defogger",
+         "Rear wiper & washer",
+         "Follw me home headlamps",
+         "Fixed type front armrest with storage box",
+         "Sunglass holder",
+         "Assist grips",
+         "Coat hook",
+         "Rear parcel shelf",
+         "Room lamp (Bulb type)",
+         "Luggage lamp (Bulb type)",
+         "Driver seat height adjust (Manual)",
+         "Lower full size seatback pocket (Driver)",
+         "Lower full size seatback pocket (Passenger)",
+         "Passenger seatback upper pocket",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Rear door sun-shade curtain",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Remote engine start on smart key",
+         "Smart key with push button start",
+         "Auto antiglare (ECM) rear view mirror with Kia Connect controls",
+         "Electric adjust outside mirror",
+         "Electric folding outside mirror",
+         "Cruise control",
+         "Fully automatic Air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "26.03 cm (10.25″) HD Touchscreen Navigation",
+         "Android Auto",
+         "Apple Carplay",
+         "Kia Connect with OTA#",
+         "Smartwatch connectivity",
+         "BOSE premium 7 speaker system with dynamic speed compensation",
+         "4 speakers",
+         "2 Tweeter",
+         "Sub woofer",
+         "Bluetooth",
+         "Bluetooth multi connection",
+         "Voice recognition with “Hello Kia”",
+         "Steering mounted Audio control",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Rear view camera with guidelines",
+         "Driving rear view monitor",
+         "Ventilated Driver seat",
+         "Ventilated Passenger seat",
+         "Wireless charger – Smartphone",
+         "Smart Pure Air Purifier with Virus protection",
+         "Traction modes – Sand/ Mud/ Wet",
+         "Multi drive modes – Normal/ Eco/ Sports",
+         "Paddle shifters"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tab": "X-Line",
+    "name": "Kia Sonet Specifications X-Line",
+    "image": "/wp-content/uploads/2023/10/x-line-sonet.png",
+    "quick": [
+     {
+      "label": "Overall Length",
+      "value": "3995mm"
+     },
+     {
+      "label": "Overall Width",
+      "value": "1790mm"
+     },
+     {
+      "label": "Overall Height",
+      "value": "1642mm"
+     }
+    ],
+    "sections": [
+     {
+      "title": "Highlights",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Xclusive Matte Graphite Exterior Color",
+         "Xclusive Splendid Sage Dual Tone",
+         "Xclusive Crystal Cut Alloy Wheels with Black High Gloss",
+         "Kia Signature Tiger Nose Grille with Black High Gloss and Xclusive Diamond Knurling Pattern",
+         "Xclusive Piano Black Front Skid Plates with Dark Hyper Metal Accents",
+         "Xclusive Dark Chrome Fog Lamp Garnish",
+         "Xclusive Piano Black Rear Skid Plate with Dark Hyper Metal Accent",
+         "BOSE premium 7 speaker system",
+         "Six Airbags, ABS with EBD, ESC, HAC, VSM, Brake Assist, Front and Rear Parking Sensors, Projector Fog Lamps",
+         "Paddle Shifter (AT/DCT only)"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Color",
+      "groups": [
+       {
+        "title": "Exterior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "#272C30",
+          "name": "Matte Graphite"
+         }
+        ]
+       },
+       {
+        "title": "Interior",
+        "kind": "colors",
+        "items": [
+         {
+          "swatch": "linear-gradient(90deg, rgba(2,0,36,1) 50%, rgb(143,161,165) 50%)",
+          "name": "Xclusive Splendid Sage Dual Tone"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Dimensions",
+      "groups": [
+       {
+        "title": "Measurements",
+        "kind": "table",
+        "items": [
+         [
+          "Overall Height",
+          "1642mm"
+         ],
+         [
+          "Overall Length",
+          "3995mm"
+         ],
+         [
+          "Overall Width",
+          "1790mm"
+         ],
+         [
+          "Wheelbase",
+          "2500mm"
+         ],
+         [
+          "Boot space",
+          "392"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Powertrain",
+      "groups": [
+       {
+        "title": "Engine",
+        "kind": "list",
+        "items": [
+         "Smartstream G1.0 T-GDi 7DCT",
+         "1.5L CRDi VGT 6AT"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Exterior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Silver Brake Caliper",
+         "R16 Crystal cut alloys with Black High Gloss",
+         "Kia Signature Tiger nose grill – Black high gloss",
+         "Radiator grille with Diamond knurling pattern- Xclusive Piano Black",
+         "Xclusive Piano Black Dual Muffler design",
+         "Xclusive Turbo shaped masculine piano black front skid plates with dark hyper metal accents",
+         "Xclusive Piano black rear skid plate with dark hyper metal accents",
+         "Side molding – Black",
+         "Side door Dark hyper metal garnish",
+         "Belt line chrome",
+         "Rear Center garnish – Reflector connected type",
+         "Piano black Delta garnish",
+         "Xclusive Piano Black Outside mirror LED turn signal",
+         "Chrome outside door handle",
+         "Floating type Roof rails",
+         "Electric Sunroof",
+         "Crown Jewel LED headlamps",
+         "Heartbeat LED DRL with integrated indicators",
+         "Heartbeat LED tail lamps",
+         "Shark fin antenna – Matte Graphite"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Interior",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Leatherette wrapped D-cut steering wheel with Sonet logo",
+         "High gloss black finish AC vents garnish",
+         "Connected Infotainment and cluster design – High gloss black",
+         "Sporty alloy pedals",
+         "Leatherette wrapped gear knob",
+         "Xclusive Premium Black Headliner",
+         "Leatherette wrapped Door armrest",
+         "Inside door handle Hyper silver metallic paint",
+         "LED sound mood lights",
+         "Leatherette Sports seats with Orange stitching & X Line logo",
+         "Xclusive splendid sage dual tone"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Safety",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Anti-lock Brake System with Electronic Brake Distribution",
+         "Emergency stop signal",
+         "Brake assist",
+         "ESC (Electronic Stability Control)",
+         "HAC (Hill-start Assist Control)",
+         "VSM (Vehicle Stability Management)",
+         "Driver Airbag",
+         "Passenger Airbag",
+         "Side Airbags",
+         "Curtain Airbags",
+         "ISO FIX child anchor",
+         "Front seat belts with Pretensioner & load limiter",
+         "Speed sensing door lock",
+         "Impact sensing door unlock",
+         "Projector fog lamps",
+         "Xclusive Dark Chrome Fog Lamp cover",
+         "Seat belt reminder – All Seats",
+         "Rear parking sensors",
+         "Front parking sensors",
+         "High line tyre pressure monitor",
+         "Front disc brakes",
+         "Auto headlamps",
+         "All Seats 3 Point Seat Belt"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Convenience",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "Electric Power steering",
+         "Tilt steering",
+         "Battery Saver",
+         "Tinted glass",
+         "Front Door power windows",
+         "Rear Door power windows",
+         "Driver one touch Auto up/ down with anti pinch function",
+         "Rear Defogger",
+         "Rear wiper & washer",
+         "Follw me home headlamps",
+         "Fixed type front armrest with storage box",
+         "Sunglass holder",
+         "Assist grips",
+         "Coat hook",
+         "Rear parcel shelf",
+         "Room lamp (Bulb type)",
+         "Luggage lamp (Bulb type)",
+         "Driver seat height adjust (Manual)",
+         "Lower full size seatback pocket (Driver)",
+         "Lower full size seatback pocket (Passenger)",
+         "Passenger seatback upper pocket",
+         "Bench type seatback folding",
+         "Front passenger adjustable headrest",
+         "Rear passengers adjustable headrest",
+         "Rear door sun-shade curtain",
+         "Front USB charging port",
+         "Rear USB charging port",
+         "Central locking",
+         "Remote engine start on smart key",
+         "Smart key with push button start",
+         "Auto antiglare (ECM) rear view mirror with Kia Connect controls",
+         "Electric adjust outside mirror",
+         "Electric folding outside mirror",
+         "Cruise control",
+         "Fully automatic Air conditioner",
+         "Rear AC vents",
+         "Eco coating"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Infotainment & Technology",
+      "groups": [
+       {
+        "title": "Features",
+        "kind": "list",
+        "items": [
+         "26.03 cm (10.25″) HD Touchscreen Navigation",
+         "Android Auto",
+         "Apple Carplay",
+         "Kia Connect with OTA#",
+         "Smartwatch connectivity",
+         "BOSE premium 7 speaker system with dynamic speed compensation",
+         "4 speakers",
+         "2 Tweeter",
+         "Sub woofer",
+         "Bluetooth",
+         "Bluetooth multi connection",
+         "Voice recognition with “Hello Kia”",
+         "Steering mounted Audio control",
+         "Advance 10.67 cm (4.2″) Color instrument cluster",
+         "Rear view camera with guidelines",
+         "Driving rear view monitor",
+         "Ventilated Driver seat",
+         "Ventilated Passenger seat",
+         "Wireless charger – Smartphone",
+         "Smart Pure Air Purifier with Virus protection",
+         "Traction modes – Sand/ Mud/ Wet",
+         "Multi drive modes – Normal/ Eco/ Sports",
+         "Paddle shifters"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

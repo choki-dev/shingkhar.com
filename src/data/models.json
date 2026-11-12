@@ -1,0 +1,1765 @@
+[
+ {
+  "slug": "sorento",
+  "name": "Sorento",
+  "thumb": "/wp-content/uploads/2019/06/Sorento-2021.jpg",
+  "group": "all",
+  "title": "Sorento - Kia Bhutan",
+  "blocks": [
+   {
+    "type": "slider",
+    "label": "Sorento Exterior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Sorento-Exterior.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sorento-Exterior-3.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/img_exterior2-1903x900-1.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sorento-Exterior-4.jpg",
+      "caption": "Exterior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-01_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-01_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-02_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-02_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-03_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-03_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-04_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-04_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-05_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-05_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-06_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-06_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-07_result_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-sorento-mq4-21my-thum-exterior-07_result_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-5-1.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-5-1-278x300.png",
+      "title": "",
+      "caption": "",
+      "w": 278,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-6.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-6-300x188.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 188
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-7.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-7-300x255.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 255
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Sorento Interior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/img_exterior2-1903x900-2.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/iNTERIOR.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2019/06/img_interior3-1903x900.jpg",
+      "caption": "Interior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/08/img-interior-detail4-1500x1500.jpg",
+      "thumb": "/wp-content/uploads/2019/08/img-interior-detail4-1500x1500-300x198.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 198
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail1.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail1-300x228.jpg",
+      "title": "2nd row seatback lever",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail7.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail7-300x228.jpg",
+      "title": "Integrated Memory System (IMS)",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail8.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail8-300x228.jpg",
+      "title": "Harman/Kardon premium sound system",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail3.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail3-300x228.jpg",
+      "title": "Heated and ventilated seats",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail6.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail6-300x228.jpg",
+      "title": "8˝ audio visual navigation system",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail9.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail9-300x228.jpg",
+      "title": "Tailgate memory function",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail5.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail5-300x228.jpg",
+      "title": "7” TFT-LCD supervision cluster",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_interior_detail2.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_interior_detail2-300x228.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/08/img-interior-detail10.jpg",
+      "thumb": "/wp-content/uploads/2019/08/img-interior-detail10-300x228.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/08/img-interior-detail6.jpg",
+      "thumb": "/wp-content/uploads/2019/08/img-interior-detail6-300x228.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Sorento Highlights",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Sorento-Exterior-5.jpg",
+      "caption": "Highlight"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sorento-Exterior-6.jpg",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/06/thumb_highlight_detail1.jpg",
+      "thumb": "/wp-content/uploads/2019/06/thumb_highlight_detail1-300x228.jpg",
+      "title": "Seat Work-In System",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_highlight_detail2.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_highlight_detail2-300x228.jpg",
+      "title": "Black Colour Package",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Sorento Performance",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/06/img_performance1-1903x900.jpg",
+      "caption": "Performance"
+     },
+     {
+      "src": "/wp-content/uploads/2019/06/img_performance2-1903x900.jpg",
+      "caption": "Performance"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/06/img_performance_detail2.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_performance_detail2-300x228.jpg",
+      "title": "Manual transmission",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_performance_detail1.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_performance_detail1-300x228.jpg",
+      "title": "Automatic transmission",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_performance_detail3.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_performance_detail3-300x228.jpg",
+      "title": "Drive mode select system",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_performance_detail4.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_performance_detail4-300x228.jpg",
+      "title": "Flex Steer system",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_performance_detail5.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_performance_detail5-300x228.jpg",
+      "title": "Self-leveling suspension",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Sorento Safety",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/06/img_safety1-1903x900.jpg",
+      "caption": "Safety"
+     },
+     {
+      "src": "/wp-content/uploads/2019/06/img_safety2-1903x900.jpg",
+      "caption": "Safety"
+     },
+     {
+      "src": "/wp-content/uploads/2019/08/img-safety3-1-1903x900.jpg",
+      "caption": "Safety"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/06/img_safety_detail1.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_safety_detail1-300x228.jpg",
+      "title": "Six airbags",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_safety_detail2.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_safety_detail2-300x228.jpg",
+      "title": "Emergency Fastening Device (EFD)",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_safety_detail3.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_safety_detail3-300x228.jpg",
+      "title": "Rear sub-frame",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_safety_detail4.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_safety_detail4-300x228.jpg",
+      "title": "Upright rear shock-absorber",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_safety_detail5.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_safety_detail5-300x228.jpg",
+      "title": "Hill-start Assist Control (HAC)",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     },
+     {
+      "full": "/wp-content/uploads/2019/06/img_safety_detail6.jpg",
+      "thumb": "/wp-content/uploads/2019/06/img_safety_detail6-300x228.jpg",
+      "title": "Vehicle Stability Management (VSM)",
+      "caption": "",
+      "w": 300,
+      "h": 228
+     }
+    ]
+   },
+   {
+    "type": "dimensions",
+    "image": "/wp-content/uploads/2019/08/img_specifications.jpg",
+    "alt": "Details of Sorento",
+    "rows": [
+     [
+      "Overall length",
+      "4,800"
+     ],
+     [
+      "Overall width",
+      "1,890"
+     ],
+     [
+      "Overall height",
+      "1,685 (without roof rack) 1,690 (with roof rack)"
+     ],
+     [
+      "Wheelbase",
+      "2,780"
+     ],
+     [
+      "Wheel tread (F/R)",
+      "17“ : 1,633 / 1,644 18“, 19“ : 1,628 / 1,639"
+     ],
+     [
+      "Overhang (F/R)",
+      "945 / 1,075"
+     ],
+     [
+      "Head room(1st / 2nd / 3rd row",
+      "1,004 / 998 / 920 (without panorama sunroof)"
+     ],
+     [
+      "Leg room(1st / 2nd / 3rd row)",
+      "1,048 / 1,000 / 805"
+     ],
+     [
+      "Shoulder room(1st / 2nd / 3rd row)",
+      "1,500 / 1,472 / 1,342"
+     ],
+     [
+      "Ground clearance",
+      "185"
+     ],
+     [
+      "Fuel tank capacity (ℓ)",
+      "71"
+     ]
+    ],
+    "note": "All information and illustrations are based on data available at the time of publication and subject to change without notice. Contact your local Kia dealer for current information."
+   }
+  ]
+ },
+ {
+  "slug": "kiabhutan-sportage",
+  "name": "Sportage",
+  "thumb": "/wp-content/uploads/2019/06/All-Vehicle-Sportage-2.png",
+  "group": "all",
+  "title": "Sportage - Kia Bhutan",
+  "blocks": [
+   {
+    "type": "slider",
+    "label": "sportage exterior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/09/kia-sportage-19my-exterior-01-w-1903x900.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2019/07/p01-1691x800.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2019/07/p2-1691x800.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2019/07/min_p1-1280x605.jpg",
+      "caption": "Exterior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/09/p2-3.jpg",
+      "thumb": "/wp-content/uploads/2019/09/p2-3-300x163.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 163
+     },
+     {
+      "full": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-01-w.jpg",
+      "thumb": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-01-w-300x225.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-02-w.jpg",
+      "thumb": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-02-w-300x225.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-03-w.jpg",
+      "thumb": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-03-w-300x225.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-04-w.jpg",
+      "thumb": "/wp-content/uploads/2019/09/kia-pop-sportage-19my-exterior-04-w-300x225.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Sportage Interior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/09/p3-1280x605.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2019/09/p4-1-1691x800.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2019/09/Seats-of-Sportage-1329x629.jpg",
+      "caption": "Interior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-01_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-01_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-02_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-02_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-03_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-03_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-04_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-04_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-05_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-05_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-07_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-07_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-09_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-09_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-10_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-10_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-11_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-11_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-12_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-12_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-14_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-14_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-06_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-06_result-1-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-08_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-08_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-13_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-13_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Seltos-RoomForEverything-weekend_trips-new_result.jpg",
+      "thumb": "/wp-content/uploads/2021/06/Seltos-RoomForEverything-weekend_trips-new_result-184x300.jpg",
+      "title": "",
+      "caption": "",
+      "w": 184,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/seltos-safety-tpms-00_result.png",
+      "thumb": "/wp-content/uploads/2021/06/seltos-safety-tpms-00_result-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/SELTOS_800x520_3_result.png",
+      "thumb": "/wp-content/uploads/2021/06/SELTOS_800x520_3_result-300x168.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 168
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "sportage highlights",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/07/p1-1691x800.jpg",
+      "caption": "Highlights"
+     },
+     {
+      "src": "/wp-content/uploads/2019/07/p3-1280x605.jpg",
+      "caption": "Highlights"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/07/p41.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p41-300x141.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 141
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "sportage performance",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/07/p12-1691x800.jpg",
+      "caption": "Performance"
+     },
+     {
+      "src": "/wp-content/uploads/2019/07/p13-1693x801.jpg",
+      "caption": "Performance"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/07/p2_21.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p2_21-300x220.jpg",
+      "title": "Theta 2.4 GDI gasoline engine",
+      "caption": "",
+      "w": 300,
+      "h": 220
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p2_11.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p2_11-300x220.jpg",
+      "title": "Nu 2.0 MPI gasoline engine",
+      "caption": "",
+      "w": 300,
+      "h": 220
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p2_31.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p2_31-300x220.jpg",
+      "title": "R 2.0 (high output) diesel engine",
+      "caption": "",
+      "w": 300,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "sportage safety",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2019/09/p1-1-1691x800.jpg",
+      "caption": "Safety"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2019/07/p1_1.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p1_1-300x215.jpg",
+      "title": "Blind-Spot Collision Warning (BCW)",
+      "caption": "",
+      "w": 300,
+      "h": 215
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p1_2.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p1_2-300x215.jpg",
+      "title": "Rear Cross-Traffic Collision Warning (RCCW)",
+      "caption": "",
+      "w": 300,
+      "h": 215
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p1_3.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p1_3-300x215.jpg",
+      "title": "Parking Distance Warning-Forward (PDW-F)",
+      "caption": "",
+      "w": 300,
+      "h": 215
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p1_4.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p1_4-300x215.jpg",
+      "title": "Vehicle Stability Management (VSM)",
+      "caption": "",
+      "w": 300,
+      "h": 215
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p1_5.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p1_5-300x215.jpg",
+      "title": "Cruise Control (CC)",
+      "caption": "",
+      "w": 300,
+      "h": 215
+     },
+     {
+      "full": "/wp-content/uploads/2019/07/p1_6.jpg",
+      "thumb": "/wp-content/uploads/2019/07/p1_6-300x215.jpg",
+      "title": "Drive Mode Select (DMS)",
+      "caption": "",
+      "w": 300,
+      "h": 215
+     }
+    ]
+   },
+   {
+    "type": "dimensions",
+    "image": "/wp-content/uploads/2019/09/kia-sportage-ql-pe-my19-all-view.png",
+    "alt": "",
+    "rows": [
+     [
+      "Overall length",
+      "4,480"
+     ],
+     [
+      "Overall width",
+      "1,855"
+     ],
+     [
+      "Overall height",
+      "1,655 (excluding roof rack: 1,645)"
+     ],
+     [
+      "Wheelbase",
+      "2,670"
+     ],
+     [
+      "Wheel tread (front)",
+      "1,609"
+     ],
+     [
+      "Wheel tread (rear)",
+      "1,620"
+     ],
+     [
+      "Overhang (front / rear)",
+      "910 / 900"
+     ],
+     [
+      "Headroom (1st / 2nd row)",
+      "997 / 993 (with panoramic sunroof: 954 / 962)"
+     ],
+     [
+      "Legroom (1st / 2nd row)",
+      "1,053 (1,129 max) / 970"
+     ],
+     [
+      "Shoulder room (1st / 2nd row)",
+      "1,450 / 1,400"
+     ],
+     [
+      "Hip room (1st / 2nd row)",
+      "1,380 / 1,300"
+     ],
+     [
+      "Minimum ground clearance",
+      "172"
+     ],
+     [
+      "Fuel Tank Capacity (liters)",
+      "62"
+     ]
+    ],
+    "note": "All information and illustrations are based on data available at the time of publication and subject to change without notice. Contact your local Kia dealer for current information."
+   }
+  ]
+ },
+ {
+  "slug": "kiabhutan-seltos",
+  "name": "Seltos",
+  "thumb": "/wp-content/uploads/2019/09/All-Vehicle-Seltos.png",
+  "group": "all",
+  "title": "Seltos - Kia Bhutan",
+  "blocks": [
+   {
+    "type": "slider",
+    "label": "Seltos Exterior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-6.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-7.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-8.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-9.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-10.jpg",
+      "caption": "Exterior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-exterior-02_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-exterior-02_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-exterior-06_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-exterior-06_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-10_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-10_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-11_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-11_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-12_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-12_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-13_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-exterior-13_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/compare-seltos-01_result.png",
+      "thumb": "/wp-content/uploads/2021/06/compare-seltos-01_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     }
+    ]
+   },
+   {
+    "type": "colors",
+    "colors": [
+     {
+      "name": "Pewter Olive",
+      "swatch": "#094409",
+      "image": "/wp-content/uploads/2023/10/08-d.png"
+     },
+     {
+      "name": "Imperial Blue",
+      "swatch": "#0b2058",
+      "image": "/wp-content/uploads/2023/10/08-d-1.png"
+     },
+     {
+      "name": "Intense Red",
+      "swatch": "#ad0404",
+      "image": "/wp-content/uploads/2023/10/08-d-2.png"
+     },
+     {
+      "name": "Glacier White Pearl",
+      "swatch": "#e4e0e0",
+      "image": "/wp-content/uploads/2023/10/08-d-3.png"
+     },
+     {
+      "name": "Gravity Grey",
+      "swatch": "#373b3b",
+      "image": "/wp-content/uploads/2023/10/08-d-4.png"
+     },
+     {
+      "name": "Aurora Black Pearl",
+      "swatch": "#000",
+      "image": "/wp-content/uploads/2023/10/08-d-5.png"
+     },
+     {
+      "name": "Sparkling Silver",
+      "swatch": "#d1d2d1",
+      "image": "/wp-content/uploads/2023/10/08-d-6.png"
+     },
+     {
+      "name": "Glacier White Pearl + Aurora Black Pearl",
+      "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, #e4e0e0 50%)",
+      "image": "/wp-content/uploads/2023/10/08-d-7.png"
+     },
+     {
+      "name": "Intense Red + Aurora Black Pearl",
+      "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, rgba(150,4,4,1) 50%)",
+      "image": "/wp-content/uploads/2023/10/08-d-8.png"
+     }
+    ],
+    "specLink": "/kia-seltos-specifications-hte/"
+   },
+   {
+    "type": "slider",
+    "label": "Seltos Interior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-11.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Interior-Metadata-2.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Interior-Metadata-3.jpg",
+      "caption": ""
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Interior-Metadata-1.jpg",
+      "caption": ""
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-01_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-01_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-02_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-02_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-03_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-03_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-04_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-04_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-05_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-05_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-07_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-07_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-09_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-09_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-10_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-10_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-11_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-11_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-12_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-12_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-14_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-14_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-06_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-rhd-thum-interior-06_result-1-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-08_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-08_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-13_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-seltos-sp2i-20my-thum-interior-13_result-275x300.png",
+      "title": "",
+      "caption": "",
+      "w": 275,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Seltos-RoomForEverything-weekend_trips-new_result.jpg",
+      "thumb": "/wp-content/uploads/2021/06/Seltos-RoomForEverything-weekend_trips-new_result-184x300.jpg",
+      "title": "",
+      "caption": "",
+      "w": 184,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/seltos-safety-tpms-00_result.png",
+      "thumb": "/wp-content/uploads/2021/06/seltos-safety-tpms-00_result-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/SELTOS_800x520_3_result.png",
+      "thumb": "/wp-content/uploads/2021/06/SELTOS_800x520_3_result-300x168.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 168
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Seltos Highlights",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-12.jpg",
+      "caption": "Highlights"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-3.jpg",
+      "caption": "Highlights"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-highlights-11-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-highlights-11-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-01-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-01-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-02-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-02-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-03-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-03-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-04-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-04-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-05-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-05-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-06-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-06-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-07-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-07-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-08-w_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-08-w_result-1-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-09-w_result-2.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-highlights-09-w_result-2-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/SP2i_20MY_GE_RHD_Sound_Mode_Lamp_DI_960x720_result.png",
+      "thumb": "/wp-content/uploads/2021/06/SP2i_20MY_GE_RHD_Sound_Mode_Lamp_DI_960x720_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     }
+    ]
+   },
+   {
+    "type": "slider",
+    "label": "Seltos Performance",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-13.jpg",
+      "caption": "Performance"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Seltos-Metadata-22.jpg",
+      "caption": "Performance"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-4.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-4-300x185.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 185
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-5.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-5-300x211.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 211
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-3.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-3-300x182.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 182
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/seltos_safety_airbags_new_result.png",
+      "thumb": "/wp-content/uploads/2021/06/seltos_safety_airbags_new_result-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/seltos-safety-structure_result.png",
+      "thumb": "/wp-content/uploads/2021/06/seltos-safety-structure_result-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/seltos-safety-tpms-00_result-1.png",
+      "thumb": "/wp-content/uploads/2021/06/seltos-safety-tpms-00_result-1-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/seltos-safety-wheeldiscbrakes-01_result.png",
+      "thumb": "/wp-content/uploads/2021/06/seltos-safety-wheeldiscbrakes-01_result-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Hill-Assit-Control.png",
+      "thumb": "/wp-content/uploads/2021/06/Hill-Assit-Control-300x139.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 139
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Seltos-Electronic-Stablility-control.jpg",
+      "thumb": "/wp-content/uploads/2021/06/Seltos-Electronic-Stablility-control-300x138.jpg",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 138
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-safety-02-w_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-safety-02-w_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-safety-04-w_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-safety-04-w_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-safety-05-w_result.png",
+      "thumb": "/wp-content/uploads/2021/06/kia-pop-seltos-sp2i-20my-rhd-safety-05-w_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     }
+    ]
+   },
+   {
+    "type": "dimensions",
+    "image": "/wp-content/uploads/2021/06/Kia-Seltos-Dimmention.png",
+    "alt": "",
+    "rows": [
+     [
+      "Overall length",
+      "4,480"
+     ],
+     [
+      "Overall width",
+      "1,855"
+     ],
+     [
+      "Overall height",
+      "1,655 (excluding roof rack: 1,645)"
+     ],
+     [
+      "Wheelbase",
+      "2,670"
+     ],
+     [
+      "Wheel tread (front)",
+      "1,609"
+     ],
+     [
+      "Wheel tread (rear)",
+      "1,620"
+     ],
+     [
+      "Overhang (front / rear)",
+      "910 / 900"
+     ],
+     [
+      "Headroom (1st / 2nd row)",
+      "997 / 993 (with panoramic sunroof: 954 / 962)"
+     ],
+     [
+      "Legroom (1st / 2nd row)",
+      "1,053 (1,129 max) / 970"
+     ],
+     [
+      "Shoulder room (1st / 2nd row)",
+      "1,450 / 1,400"
+     ],
+     [
+      "Hip room (1st / 2nd row)",
+      "1,380 / 1,300"
+     ],
+     [
+      "Minimum ground clearance",
+      "172"
+     ],
+     [
+      "Fuel Tank Capacity (liters)",
+      "62"
+     ]
+    ],
+    "note": "All information and illustrations are based on data available at the time of publication and subject to change without notice. Contact your local Kia dealer for current information."
+   }
+  ]
+ },
+ {
+  "slug": "sonet",
+  "name": "Sonet",
+  "thumb": "/wp-content/uploads/2019/06/Sonet-2021.jpg",
+  "group": "all",
+  "title": "Sonet - Kia Bhutan",
+  "blocks": [
+   {
+    "type": "slider",
+    "label": "Sonet Exterior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Exterior-Metaslider.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Exterior-Metaslider-2.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Exterior-Metaslider-3.jpg",
+      "caption": "Exterior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Exterior-Metaslider-4.jpg",
+      "caption": "Exterior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/KiaSonetExt-02_result.png",
+      "thumb": "/wp-content/uploads/2021/06/KiaSonetExt-02_result-300x169.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 169
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/KiaSonetExt-06_result.png",
+      "thumb": "/wp-content/uploads/2021/06/KiaSonetExt-06_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/KiaSonetExt-07_result.png",
+      "thumb": "/wp-content/uploads/2021/06/KiaSonetExt-07_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/KiaSonetExt-08_result.png",
+      "thumb": "/wp-content/uploads/2021/06/KiaSonetExt-08_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/KiaSonetExt-10_result.png",
+      "thumb": "/wp-content/uploads/2021/06/KiaSonetExt-10_result-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     }
+    ]
+   },
+   {
+    "type": "colors",
+    "colors": [
+     {
+      "name": "Intense Red",
+      "swatch": "#ad0404",
+      "image": "/wp-content/uploads/2023/10/08-d-9.png"
+     },
+     {
+      "name": "Imperial Blue",
+      "swatch": "#0b2058",
+      "image": "/wp-content/uploads/2023/10/08-d-10.png"
+     },
+     {
+      "name": "Gravity Grey",
+      "swatch": "#373b3b",
+      "image": "/wp-content/uploads/2023/10/08-d-11.png"
+     },
+     {
+      "name": "Aurora Black Pearl",
+      "swatch": "#000",
+      "image": "/wp-content/uploads/2023/10/08-d-12.png"
+     },
+     {
+      "name": "Sparkling Silver",
+      "swatch": "#D1D2D1",
+      "image": "/wp-content/uploads/2023/10/08-d-13.png"
+     },
+     {
+      "name": "Glacier White Pearl",
+      "swatch": "#e4e0e0",
+      "image": "/wp-content/uploads/2023/10/08-d-14.png"
+     },
+     {
+      "name": "Intense Red + Aurora Black Pearl",
+      "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, rgba(150,4,4,1) 50%)",
+      "image": "/wp-content/uploads/2023/10/08-d-15.png"
+     },
+     {
+      "name": "Glacier White Pearl + Aurora Black Pearl",
+      "swatch": "linear-gradient(106deg, rgba(2,0,36,1) 50%, #e4e0e0 50%)",
+      "image": "/wp-content/uploads/2023/10/08-d-16.png"
+     }
+    ],
+    "specLink": "/kia-sonet-specifications-hte/"
+   },
+   {
+    "type": "slider",
+    "label": "Sonet Interior",
+    "slides": [
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Interior-Metadata-3.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Interior-Metadata-2.jpg",
+      "caption": "Interior"
+     },
+     {
+      "src": "/wp-content/uploads/2021/06/Sonet-Interior-Metadata-1-1.jpg",
+      "caption": "Interior"
+     }
+    ]
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2021/06/bose-7-spekr-d_result.png",
+      "thumb": "/wp-content/uploads/2021/06/bose-7-spekr-d_result-300x300.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 300
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/sonet_800x520_1_result.png",
+      "thumb": "/wp-content/uploads/2021/06/sonet_800x520_1_result-300x195.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 195
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/sonet_800x520_2_result.png",
+      "thumb": "/wp-content/uploads/2021/06/sonet_800x520_2_result-300x195.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 195
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/sonet_800x520_5_result.png",
+      "thumb": "/wp-content/uploads/2021/06/sonet_800x520_5_result-300x195.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 195
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/sonet-tpm-d-2_result.png",
+      "thumb": "/wp-content/uploads/2021/06/sonet-tpm-d-2_result-300x150.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 150
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/KiaSonet-StudioShoot-15_result.png",
+      "thumb": "/wp-content/uploads/2021/06/KiaSonet-StudioShoot-15_result-300x225.png",
+      "title": "First-In-Segment",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/sonet-interior-1_result.png",
+      "thumb": "/wp-content/uploads/2021/06/sonet-interior-1_result-300x194.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 194
+     },
+     {
+      "full": "/wp-content/uploads/2021/06/Asset-2.png",
+      "thumb": "/wp-content/uploads/2021/06/Asset-2-300x133.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 133
+     }
+    ]
+   },
+   {
+    "type": "dimensions",
+    "image": null,
+    "alt": "",
+    "rows": [],
+    "note": ""
+   }
+  ]
+ },
+ {
+  "slug": "carens",
+  "name": "Carens",
+  "thumb": "/wp-content/uploads/2019/06/07-d.png",
+  "group": "new",
+  "title": "Carens - Kia Bhutan",
+  "blocks": [
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-8.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-8-300x185.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 185
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-5.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-5-300x137.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 137
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-2.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-2-300x225.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 225
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-6.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-6-300x137.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 137
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-4.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-4-300x130.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 130
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-3.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-3-300x196.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 196
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-7.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-7-300x141.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 141
+     },
+     {
+      "full": "/wp-content/uploads/2022/03/Asset-1.png",
+      "thumb": "/wp-content/uploads/2022/03/Asset-1-300x141.png",
+      "title": "",
+      "caption": "",
+      "w": 300,
+      "h": 141
+     }
+    ]
+   }
+  ]
+ }
+]

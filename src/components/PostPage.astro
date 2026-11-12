@@ -1,0 +1,83 @@
+---
+import LongArrow from './LongArrow.astro';
+import posts from '../data/posts.json';
+
+interface Props { post: (typeof posts)[number] }
+const { post } = Astro.props;
+const cat = { label: 'Kia Buzz', href: '/category/kia-buzz/' };
+
+// Pull a short "By …" source line out of the article body to show as a byline
+let html = post.html ?? '';
+let byline: string | null = null;
+const first = html.match(/^\s*<p>\s*(By [^<]{1,40}?)\s*<\/p>/);
+if (first) {
+  byline = first[1].trim();
+  html = html.slice(first[0].length);
+}
+
+const words = html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+const minutes = Math.max(1, Math.round(words / 200));
+
+const siblings = posts.filter((p) => p.category === post.category);
+const idx = siblings.findIndex((p) => p.slug === post.slug);
+const prev = siblings[idx - 1];
+const next = siblings[idx + 1];
+---
+<div class="art-progress" aria-hidden="true"><span data-art-progress></span></div>
+
+<article class="art">
+  <header class="container art__head">
+    <ol class="art__crumbs">
+      <li><a href="/">Home</a></li>
+      <li><a href={cat.href}>{cat.label}</a></li>
+    </ol>
+    <h1 class="art__title">{post.title}</h1>
+    {byline && <p class="art__byline">{byline}</p>}
+  </header>
+
+  {post.banner && (
+    <figure class="container art__cover">
+      <img src={post.banner} alt={post.title} fetchpriority="high" />
+    </figure>
+  )}
+
+  <div class="container">
+    <div class="art__body" data-art-body set:html={html} />
+  </div>
+
+  {(prev || next) && (
+    <nav class="container art__more" aria-label="More stories">
+      <div class="art__more-head">
+        <a class="dept__cta" href={cat.href}>Back to {cat.label} <LongArrow width={44} /></a>
+      </div>
+      <div class="art__more-grid">
+        {[prev && { p: prev, dir: 'Previous' }, next && { p: next, dir: 'Next' }].filter(Boolean).map((x: any) => (
+          <a class="art__card" href={`/${x.p.slug}/`}>
+            <span class="art__card-img"><img src={x.p.thumb} alt="" loading="lazy" width="384" height="252" /></span>
+            <span class="art__card-body">
+              <span class="art__card-title">{x.p.title}</span>
+              <LongArrow />
+            </span>
+          </a>
+        ))}
+      </div>
+    </nav>
+  )}
+</article>
+
+<script>
+  // Thin reading-progress line at the top of the screen
+  const bar = document.querySelector<HTMLElement>('[data-art-progress]');
+  const body = document.querySelector<HTMLElement>('[data-art-body]');
+  if (bar && body) {
+    const update = () => {
+      const r = body.getBoundingClientRect();
+      const total = r.height - window.innerHeight * 0.6;
+      const p = Math.min(1, Math.max(0, (window.innerHeight * 0.4 - r.top) / Math.max(total, 1)));
+      bar.style.transform = `scaleX(${p})`;
+    };
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+  }
+</script>

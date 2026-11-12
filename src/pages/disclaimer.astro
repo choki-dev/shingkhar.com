@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import pages from '../data/pages.json';
+const page = pages['disclaimer'];
+---
+<Base title="Disclaimer - Kia Bhutan">
+  <PageHero title="Disclaimer" crumbs={[{ label: 'Disclaimer' }]} />
+  <section class="section">
+    <div class="container"><article class="prose" set:html={page.html} /></div>
+  </section>
+</Base>

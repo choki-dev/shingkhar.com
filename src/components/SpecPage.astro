@@ -1,0 +1,66 @@
+---
+import Icon from './Icon.astro';
+import PageHero from './PageHero.astro';
+import { allModels } from '../data/site';
+
+interface Props { spec: any }
+const { spec } = Astro.props;
+const model = allModels.find((m) => m.name === spec.model);
+const tabId = (t: string) => t.toLowerCase().replace(/\+/g, '-plus').replace(/[^a-z0-9-]+/g, '-').replace(/(^-|-$)/g, '');
+---
+<PageHero
+  title={spec.trims[0]?.name ?? spec.title}
+  crumbs={[{ label: spec.model, href: model ? `/${model.slug}/` : undefined }, { label: 'Specifications' }]}
+/>
+
+<div data-tabs data-tabs-hash>
+  <div class="trim-tabs">
+    <div class="container">
+      <div class="trim-tabs__list" role="tablist" aria-label="Trims">
+        {spec.trims.map((t: any, i: number) => (
+          <button class:list={['trim-tab', { 'is-active': i === 0 }]} role="tab" data-tab={tabId(t.tab)}>{t.tab}</button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  {spec.trims.map((t: any, i: number) => (
+    <div class="trim" data-panel={tabId(t.tab)} role="tabpanel" hidden={i !== 0}>
+      <div class="container">
+        <div class="trim__hero">
+          {t.image && <img src={t.image} alt={t.name} loading={i === 0 ? 'eager' : 'lazy'} />}
+          <div>
+            <h2>{t.name}</h2>
+            <div class="measures">
+              {t.quick.map((q: any) => <div class="measure"><span>{q.label}</span><b>{q.value}</b></div>)}
+            </div>
+            <div class="showcase__actions" style="margin-top:2rem">
+              {model && <a class="btn" href={`/${model.slug}/`}>{spec.model} <Icon name="arrow" size={16} /></a>}
+              <a class="btn btn--outline" href="/contact-us/">contact us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="spec-sections">
+          {t.sections.map((s: any) => (
+            <div class="spec-block">
+              <h3>{s.title}</h3>
+              {s.groups.map((g: any) => (
+                <>
+                  <h4>{g.title}</h4>
+                  {g.kind === 'list' && <ul class="spec-list">{g.items.map((x: string) => <li>{x}</li>)}</ul>}
+                  {g.kind === 'colors' && (
+                    <div class="color-chips">{g.items.map((c: any) => <span class="color-chip"><i style={`background:${c.swatch}`}></i>{c.name}</span>)}</div>
+                  )}
+                  {g.kind === 'table' && (
+                    <table class="spec-table"><tbody>{g.items.map((r: string[]) => <tr><th scope="row">{r[0]}</th><td>{r[1]}</td></tr>)}</tbody></table>
+                  )}
+                </>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>

@@ -1,0 +1,15 @@
+---
+interface Props { title: string; image?: string | null; crumbs?: { label: string; href?: string }[]; position?: string }
+const { title, image, crumbs = [], position = 'center' } = Astro.props;
+---
+<section class:list={['page-hero', { 'page-hero--plain': !image }]}>
+  {image && <div class="page-hero__img"><img src={image} alt="" style={`object-position:${position}`} /></div>}
+  <div class="container page-hero__inner">
+    <ol class="crumbs">
+      <li><a href="/">Home</a></li>
+      {crumbs.map((c) => <li>{c.href ? <a href={c.href}>{c.label}</a> : c.label}</li>)}
+    </ol>
+    <h1 data-reveal>{title}</h1>
+    <slot />
+  </div>
+</section>

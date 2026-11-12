@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import ModelPage from '../components/ModelPage.astro';
+import SpecPage from '../components/SpecPage.astro';
+import PostPage from '../components/PostPage.astro';
+import { allModels } from '../data/site';
+import specs from '../data/specs.json';
+import posts from '../data/posts.json';
+
+export function getStaticPaths() {
+  return [
+    ...allModels.map((m) => ({ params: { slug: m.slug }, props: { kind: 'model' as const, model: m } })),
+    ...Object.values(specs).map((s) => ({ params: { slug: s.slug }, props: { kind: 'spec' as const, spec: s } })),
+    // sales offers no longer have their own pages (they link to the model page instead)
+    ...posts.filter((p) => p.category !== 'sales').map((p) => ({ params: { slug: p.slug }, props: { kind: 'post' as const, post: p } })),
+  ];
+}
+
+const props = Astro.props as any;
+const title =
+  props.kind === 'model' ? props.model.title : props.kind === 'spec' ? props.spec.title : `${props.post.title} - Kia Bhutan`;
+const image =
+  props.kind === 'model'
+    ? props.model.blocks.find((b: any) => b.type === 'slider')?.slides[0]?.src ?? props.model.thumb
+    : props.kind === 'spec'
+      ? props.spec.trims[0]?.image
+      : props.post.banner ?? props.post.thumb;
+---
+<Base title={title} image={image}>
+  {props.kind === 'model' && <ModelPage model={props.model} />}
+  {props.kind === 'spec' && <SpecPage spec={props.spec} />}
+  {props.kind === 'post' && <PostPage post={props.post} />}
+</Base>

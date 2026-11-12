@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import FormShell from '../components/FormShell.astro';
+import Field from '../components/Field.astro';
+import pages from '../data/pages.json';
+const page = pages['career'];
+const accept = '.pdf,.doc,.docx,.jpg,.jpeg,.png';
+---
+<Base title="Career - Kia Bhutan" image={page.banner}>
+  <PageHero title="Career" image={page.banner} crumbs={[{ label: 'Career' }]} />
+
+  <!-- Intro -->
+  <section class="section career2">
+    <div class="container career2__intro" data-reveal>
+      <h2 class="career2__title">Follow your passion, make a difference your way…</h2>
+      <p>Whatever you’re passionate about, make the most of it in a career with Kia Bhutan. Whether you’re a strategic thinker, a digital innovator, a tech wizard, or a business problem solver, you’ll find an exciting career path on the cutting edge.</p>
+      <p>We are always looking for bright, motivated, and energetic professionals to add to our world-class team. We’d love to get to know your unique blend of talents and help you explore and grow them further.</p>
+      <p class="career2__ask">How far will you go?</p>
+    </div>
+  </section>
+
+  <!-- Apply -->
+  <section class="career2__apply" id="apply">
+    <div class="container">
+      <div class="career2__card" data-reveal>
+        <div class="career2__card-head">
+          <h2 class="career2__card-title">Apply now</h2>
+          <p>Contact us for the latest employment opportunities and to schedule an interview with us.</p>
+        </div>
+        <FormShell form="career" submit="Apply" multipart>
+          <p class="form__legend">Contact Information</p>
+          <Field name="f-name" label="First Name" required />
+          <Field name="l-name" label="Last Name" required />
+          <Field name="your-email" label="Email Address" type="email" required />
+          <Field name="ph-no" label="Phone" type="tel" required />
+          <Field name="position" label="Position Desired" required />
+          <Field name="date_to_start" label="Date you can start" type="date" />
+          <p class="form__legend">Upload your resume</p>
+          <Field name="resume" label="Resume" type="file" accept={accept} full required />
+          <p class="form__legend">Upload your documents</p>
+          <Field name="documents" label="Documents" type="file" accept={accept} full />
+          <Field name="message" label="Message" type="textarea" full />
+        </FormShell>
+      </div>
+    </div>
+  </section>
+</Base>

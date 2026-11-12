@@ -1,0 +1,40 @@
+---
+// Chaty-style floating WhatsApp button (single channel): tap opens WhatsApp directly.
+const number = '97577329006'; // Sales — international format without "+"
+const greeting = encodeURIComponent('Hello Kia Bhutan, I would like some help.');
+const href = `https://wa.me/${number}?text=${greeting}`;
+---
+<div class="chaty">
+  <span class="chaty__cta" aria-hidden="true">Chat with us</span>
+  <a class="chaty__btn" href={href} target="_blank" rel="noopener" aria-label="Chat with Kia Bhutan on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3C9.4 3 4 8.36 4 14.97c0 2.11.56 4.17 1.62 5.99L4 29l8.25-1.6a12.1 12.1 0 0 0 3.79.6C22.68 28 28 22.64 28 16.03 28 9.42 22.68 3 16.04 3Zm0 22.8c-1.18 0-2.34-.2-3.44-.58l-.5-.17-4.9.95.96-4.73-.2-.5a9.7 9.7 0 0 1-1.48-5.12c0-5.38 4.17-9.76 9.56-9.76 5.4 0 9.56 4.38 9.56 9.76 0 5.39-4.16 10.15-9.56 10.15Zm5.35-7.3c-.29-.15-1.73-.86-2-.95-.27-.1-.46-.15-.66.15-.2.29-.75.94-.92 1.14-.17.19-.34.22-.63.07-.29-.15-1.23-.45-2.35-1.45-.87-.77-1.45-1.73-1.62-2.02-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.19.05-.36-.02-.51-.08-.15-.66-1.58-.9-2.17-.24-.57-.48-.49-.66-.5h-.56c-.2 0-.51.07-.78.36-.27.29-1.02 1-1.02 2.43 0 1.43 1.05 2.82 1.2 3.01.15.2 2.06 3.14 4.99 4.4.7.3 1.24.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.73-.71 1.97-1.39.25-.68.25-1.27.17-1.39-.07-.12-.27-.2-.56-.34Z"/></svg>
+  </a>
+</div>
+
+<style>
+  .chaty { position: fixed; right: clamp(16px, 2.4vw, 26px); bottom: clamp(16px, 2.4vw, 26px); z-index: 900; display: flex; align-items: center; gap: 12px; }
+
+  .chaty__cta { position: relative; padding: 8px 14px; border-radius: 6px; background: #fff; color: #333; font-size: .85rem; font-weight: 500; white-space: nowrap; box-shadow: 0 4px 14px -4px rgba(0, 0, 0, .3); transition: opacity .25s, transform .25s; }
+  .chaty__cta::after { content: ''; position: absolute; right: -5px; top: 50%; width: 10px; height: 10px; background: inherit; transform: translateY(-50%) rotate(45deg); }
+
+  .chaty__btn { position: relative; display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; background: #25d366; color: #fff; box-shadow: 0 10px 24px -8px rgba(7, 94, 84, .7); transition: transform .25s, background .3s; }
+  .chaty__btn svg { width: 30px; height: 30px; }
+  .chaty__btn:hover { background: #1ebe5b; transform: scale(1.06); }
+  .chaty__btn:focus-visible { outline: 2px solid #00040d; outline-offset: 3px; }
+
+  /* attention pulse */
+  .chaty__btn::before { content: ''; position: absolute; inset: 0; border-radius: 50%; background: #25d366; z-index: -1; animation: chaty-pulse 2.2s ease-out infinite; }
+  .chaty:hover .chaty__btn::before { animation: none; }
+  @keyframes chaty-pulse { 0% { transform: scale(1); opacity: .55; } 80%, 100% { transform: scale(1.7); opacity: 0; } }
+
+  :global(body.nav-open) .chaty { opacity: 0; visibility: hidden; }
+
+  @media (max-width: 600px) {
+    .chaty__cta { display: none; }
+    .chaty__btn { width: 52px; height: 52px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .chaty__btn::before { animation: none; }
+    .chaty__btn, .chaty__cta { transition: none; }
+  }
+</style>

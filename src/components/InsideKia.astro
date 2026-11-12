@@ -1,0 +1,35 @@
+---
+import LongArrow from './LongArrow.astro';
+import { site } from '../data/site';
+
+/** "Inside Kia Bhutan" section: centred title + two-column rows (used on Home and About us). */
+interface Props { title?: string }
+const { title = 'Inside Kia Bhutan' } = Astro.props;
+
+const tiles = [
+  { title: 'Sales', text: 'Book Your Seltos Today at Nu. 3,00,000/-', href: '/category/uncategorized/sales/' },
+  { title: 'Service', text: 'Welcome to Kia Service Center', href: '/service/' },
+  { title: 'Spare Parts', text: 'Order Parts', href: '/spare-parts/' },
+  { title: 'Contact Us', text: `Sales: ${site.phones[0].display}`, href: '/contact-us/' },
+];
+---
+<section class="ksection ksection--grey">
+  <div class="container kin">
+    <div class="kin__intro kcenter" data-reveal>
+      <h2 class="ktitle">{title}</h2>
+    </div>
+    <ul class="kin__list">
+      {tiles.map((t, i) => (
+        <li data-reveal style={`--d:${i * 0.08}s`}>
+          <a class="kin__row" href={t.href}>
+            <span class="kin__body">
+              <h3 class="kin__title">{t.title}</h3>
+              <span class="kin__text">{t.text}</span>
+            </span>
+            <span class="kin__arrow"><LongArrow /></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

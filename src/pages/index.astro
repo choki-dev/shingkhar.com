@@ -1,0 +1,153 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import InsideKia from '../components/InsideKia.astro';
+import HoursTable from '../components/HoursTable.astro';
+import { site, heroSlides, modelsAll, modelsNew } from '../data/site';
+
+const groups = [
+  { key: 'all', label: 'All Vehicles', list: modelsAll },
+  { key: 'new', label: 'New', list: modelsNew },
+];
+const specLinks: Record<string, string> = {
+  'kiabhutan-seltos': '/kia-seltos-specifications-hte/',
+  sonet: '/kia-sonet-specifications-hte/',
+};
+
+---
+<Base transparentHeader>
+  <!-- Hero -->
+  <section class="khero" data-slider data-autoplay="6000" aria-roledescription="carousel" aria-label="Kia Bhutan" tabindex="-1">
+    <div class="khero__track">
+      {heroSlides.map((s, i) => (
+        <div class:list={['khero__slide', { 'is-active': i === 0 }]} data-slide data-href={s.href}>
+          <img src={s.src} alt={`Slider ${i + 1}`} width="2000" height="900" loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} />
+        </div>
+      ))}
+    </div>
+    <div class="khero__bottom">
+      <a class="kbtn kbtn--white" data-slide-link href={heroSlides[0].href}>Learn More</a>
+      <div class="khero__dots">
+        <div class="hero__dots" data-dots></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome -->
+  <section class="ksection ksection--white">
+    <div class="container kcenter" data-reveal>
+      <h1 class="ktitle">Welcome to Kia Bhutan</h1>
+      <p class="klead">Welcome to Kia Bhutan, we are the sole and exclusive distributor for Kia Corporation in Bhutan. We welcome you to visit our showroom located at City Mall, Chubachu, Thimphu.</p>
+      <p class="klead">Are you looking for a new Kia? If so, you've come to the right place. Our friendly and knowledgeable staff will be on hand to assist you with any queries you may have regarding the product range. Visit our showroom, today or feel free to contact us or explore our website.</p>
+      <a class="kbtn" href="/about-us/">read more</a>
+    </div>
+  </section>
+
+  <!-- Showroom (Explore The Range style) -->
+  <section class="ksection ksection--warm" id="showroom">
+    <div class="container">
+      <div class="kcenter" data-reveal><h2 class="ktitle">Explore The Range</h2></div>
+      <div data-tabs>
+        <div class="ktabs" role="tablist">
+          {groups.map((g, i) => (
+            <button class:list={['ktab', { 'is-active': i === 0 }]} role="tab" data-tab={g.key}>{g.label}</button>
+          ))}
+        </div>
+        {groups.map((g, gi) => (
+          <div class="range__panel" data-panel={g.key} role="tabpanel" hidden={gi !== 0}>
+            <div class="krange" data-rail>
+              <div class="krange__track" data-rail-track>
+                {g.list.map((m) => (
+                  <article class="kcar">
+                    <a class="kcar__img" href={`/${m.slug}/`}><img src={m.thumb} alt={m.name} loading="lazy" /></a>
+                    <h3 class="kcar__name">{m.name}</h3>
+                    <div class="kcar__actions">
+                      <a class="kbtn kbtn--grey" href={`/${m.slug}/`}>Learn More</a>
+                      {specLinks[m.slug]
+                        ? <a class="kbtn kbtn--grey" href={specLinks[m.slug]}>Specification</a>
+                        : <a class="kbtn kbtn--grey" href="/contact-us/">contact us</a>}
+                    </div>
+                  </article>
+                ))}
+              </div>
+              {g.list.length > 1 && (
+                <div class="krail-nav" data-rail-nav>
+                  <button class="krail-arrow krail-arrow--prev" data-rail-prev aria-label="Previous cars">
+                    <svg viewBox="0 0 56 16" width="56" height="16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M55 8H2M9 1 2 8l7 7" /></svg>
+                  </button>
+                  <button class="krail-arrow krail-arrow--next" data-rail-next aria-label="Next cars">
+                    <svg viewBox="0 0 56 16" width="56" height="16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M1 8h53M47 1l7 7-7 7" /></svg>
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Inside Kia Bhutan -->
+  <InsideKia />
+
+  <!-- Video -->
+  <section class="kvideo">
+    <div class="container">
+      <div class="kvideo__head" data-reveal>
+        <h2 class="ktitle">Kia Videos</h2>
+        <a class="kvideo__all" href="/kia-videos/">
+          View all videos
+          <svg viewBox="0 0 56 16" width="44" height="14" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M1 8h53M47 1l7 7-7 7" /></svg>
+        </a>
+      </div>
+      <button class="yt kvideo__frame" data-yt={site.homeVideo} data-title="Kia Bhutan" aria-label="Play video" data-reveal>
+        <img src={`https://i.ytimg.com/vi/${site.homeVideo}/maxresdefault.jpg`} alt="" loading="lazy" />
+        <span class="kvideo__play" aria-hidden="true">
+          <span class="kvideo__ring"><Icon name="play" size={16} /></span>
+          <span class="kvideo__label">Play video</span>
+        </span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Showroom Hours + map -->
+  <section class="ksection ksection--white" id="showroom-hours">
+    <div class="container">
+      <div class="kcenter" data-reveal><h2 class="ktitle">Showroom Hours</h2></div>
+      <div class="kvisit">
+        <div class="kvisit__card">
+          <HoursTable light />
+        </div>
+        <div class="kvisit__map">
+          <iframe src={site.mapEmbed} title="Kia Motors Bhutan" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  // Horizontal car rail (Explore The Range)
+  document.querySelectorAll<HTMLElement>('[data-rail]').forEach((rail) => {
+    const track = rail.querySelector<HTMLElement>('[data-rail-track]')!;
+    const nav = rail.querySelector<HTMLElement>('[data-rail-nav]');
+    const prev = rail.querySelector<HTMLButtonElement>('[data-rail-prev]');
+    const next = rail.querySelector<HTMLButtonElement>('[data-rail-next]');
+    const step = () => (track.firstElementChild as HTMLElement)?.offsetWidth + 28 || 300;
+    prev?.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+    next?.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+
+    // Hide the arrows when everything fits; disable an arrow at either end
+    const sync = () => {
+      const max = track.scrollWidth - track.clientWidth;
+      if (nav) nav.hidden = max <= 2;
+      if (prev) prev.disabled = track.scrollLeft <= 2;
+      if (next) next.disabled = track.scrollLeft >= max - 2;
+    };
+    track.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    // panels inside hidden tabs have no size until shown
+    new ResizeObserver(sync).observe(track);
+    sync();
+  });
+</script>

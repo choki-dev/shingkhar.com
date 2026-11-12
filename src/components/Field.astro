@@ -1,0 +1,28 @@
+---
+interface Props {
+  name: string; label: string; type?: string; required?: boolean; full?: boolean;
+  options?: string[]; placeholder?: string; accept?: string;
+}
+const { name, label, type = 'text', required = false, full = false, options, placeholder, accept } = Astro.props;
+const id = `f-${name}`;
+---
+<div class:list={['field', { form__full: full }]}>
+  <label for={id}>{label}{required && <span class="req"> *</span>}</label>
+  {type === 'textarea' ? (
+    <textarea id={id} name={name} required={required} placeholder={placeholder}></textarea>
+  ) : type === 'select' ? (
+    <select id={id} name={name} required={required}>
+      <option value="">{placeholder ?? `Select ${label}`}</option>
+      {options?.map((o) => <option>{o}</option>)}
+    </select>
+  ) : type === 'file' ? (
+    <label class="file">
+      <input id={id} type="file" name={name} required={required} accept={accept} />
+      <span class="file__btn">Choose file</span>
+      <span data-file-name>No file chosen</span>
+    </label>
+  ) : (
+    <input id={id} type={type} name={name} required={required} placeholder={placeholder}
+      autocomplete={type === 'email' ? 'email' : type === 'tel' ? 'tel' : name === 'f-name' ? 'given-name' : name === 'l-name' ? 'family-name' : undefined} />
+  )}
+</div>

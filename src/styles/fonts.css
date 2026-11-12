@@ -1,0 +1,20 @@
+/* Kia Signature (Regular 400 / Bold 700) — subset WOFF2 built from the supplied OTFs */
+@font-face {
+  font-family: 'Kia Signature';
+  src: url('/fonts/KiaSignature-Regular.woff2') format('woff2');
+  font-weight: 100 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kia Signature';
+  src: url('/fonts/KiaSignature-Bold.woff2') format('woff2');
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-head: 'Kia Signature', 'Noto Sans', system-ui, sans-serif;
+  --font-body: 'Kia Signature', 'Lato', system-ui, sans-serif;
+}
+body, button, input, select, textarea { font-family: var(--font-body); }

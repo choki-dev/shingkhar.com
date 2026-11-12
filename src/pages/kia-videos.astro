@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Icon from '../components/Icon.astro';
+import videos from '../data/videos.json';
+---
+<Base title="Kia videos - Kia Bhutan">
+  <PageHero title="Kia Videos" crumbs={[{ label: 'Kia Videos' }]} />
+  <section class="section">
+    <div class="container video-grid">
+      {videos.map((id, i) => (
+        <button class="yt yt--sm" data-yt={id} data-title={`Kia video ${i + 1}`} aria-label={`Play Kia video ${i + 1}`} data-reveal style={`--d:${(i % 2) * 0.1}s`}>
+          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" />
+          <span class="yt__play"><Icon name="play" size={22} /></span>
+        </button>
+      ))}
+    </div>
+  </section>
+</Base>

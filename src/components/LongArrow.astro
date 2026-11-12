@@ -1,0 +1,5 @@
+---
+interface Props { width?: number; class?: string }
+const { width = 56, class: cls = '' } = Astro.props;
+---
+<svg class={cls} viewBox="0 0 56 16" width={width} height={Math.round(width * 16 / 56)} fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M1 8h53M47 1l7 7-7 7" /></svg>

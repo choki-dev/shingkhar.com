@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import LongArrow from '../../components/LongArrow.astro';
+import posts from '../../data/posts.json';
+const list = posts.filter((p) => p.category === 'kia-buzz');
+const [featured, ...rest] = list;
+const clip = (s: string | undefined, n: number) => {
+  const t = (s ?? '').replace(/\s+/g, ' ').trim();
+  return t.length > n ? t.slice(0, t.lastIndexOf(' ', n)) + '…' : t;
+};
+---
+<Base title="Kia Buzz - Kia Bhutan">
+  <PageHero title="Kia Buzz" crumbs={[{ label: 'Kia Buzz' }]} />
+
+  <section class="section buzz">
+    <div class="container buzz__wrap">
+      <!-- Featured story -->
+      {featured && (
+        <a class="buzz__feature" href={`/${featured.slug}/`} data-reveal>
+          <span class="buzz__feature-img"><img src={featured.banner ?? featured.thumb} alt="" loading="eager" /></span>
+          <span class="buzz__feature-body">
+            <h2 class="buzz__feature-title">{featured.title}</h2>
+            <span class="buzz__excerpt">{clip(featured.excerpt, 190)}</span>
+            <span class="buzz__more">Read story <LongArrow width={44} /></span>
+          </span>
+        </a>
+      )}
+
+      <!-- Story index -->
+      <ul class="buzz__list">
+        {rest.map((p, i) => (
+          <li data-reveal style={`--d:${i * 0.06}s`}>
+            <a class="buzz__row" href={`/${p.slug}/`}>
+              <span class="buzz__thumb"><img src={p.thumb} alt="" loading="lazy" width="384" height="252" /></span>
+              <span class="buzz__row-body">
+                <h3 class="buzz__row-title">{p.title}</h3>
+                <span class="buzz__excerpt">{clip(p.excerpt, 120)}</span>
+              </span>
+              <span class="buzz__arrow"><LongArrow /></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHero from '../../../components/PageHero.astro';
+import LongArrow from '../../../components/LongArrow.astro';
+import { site, salesModelLinks } from '../../../data/site';
+import posts from '../../../data/posts.json';
+const list = posts.filter((p) => p.category === 'sales').map((p) => ({ ...p, href: salesModelLinks[p.slug] ?? '/#showroom' }));
+const sales = site.phones[0];
+---
+<Base title="Sales - Kia Bhutan">
+  <PageHero title="Sales" crumbs={[{ label: 'Inside Kia Bhutan' }, { label: 'Sales' }]} />
+
+  <section class="section">
+    <div class="container sales">
+      {list.map((p) => (
+        <article class="sales__row" data-reveal>
+          <a class="sales__img" href={p.href} tabindex="-1" aria-hidden="true"><img src={p.thumb} alt="" width="1110" height="500" loading="lazy" /></a>
+          <div class="sales__body">
+            <h2 class="sales__title"><a href={p.href}>{p.title}</a></h2>
+            <a class="sales__more" href="/contact-us/">Book now <LongArrow width={44} /></a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="dept-strip">
+    <div class="container dept-strip__inner" data-reveal>
+      <p class="dept-strip__text">Visit our showroom at {site.showroom}, or call our sales team.</p>
+      <div class="dept-strip__actions">
+        <a class="dept-strip__phone" href={`tel:${sales.tel}`}>{sales.display}</a>
+        <a class="dept__cta dept__cta--light" href="/contact-us/">Contact us <LongArrow width={44} /></a>
+      </div>
+    </div>
+  </section>
+</Base>

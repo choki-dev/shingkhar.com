@@ -1,0 +1,79 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import FormShell from '../components/FormShell.astro';
+import Field from '../components/Field.astro';
+import { site } from '../data/site';
+import pages from '../data/pages.json';
+const page = pages['spare-parts'];
+const years = [...Array.from({ length: 2022 - 1998 + 1 }, (_, i) => String(1998 + i)), "I Don't Know"];
+const models = ['Carens', 'Sonet', 'Sportage', 'Sorento', 'Sorento HEV', 'Seltos', 'Stinger', 'Carnival', 'Picanto', 'Niro', 'Soul', 'Rio', 'Niro EV', 'Soul EV'];
+
+// Keep the original page wording
+const strip = (s: string) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#8217;/g, '’').replace(/\s+/g, ' ').trim();
+const title = strip(page.html.match(/<h2>([\s\S]*?)<\/h2>/)?.[1] ?? 'Order Parts');
+const paras = [...page.html.matchAll(/<p>([\s\S]*?)<\/p>/g)].map((m) => strip(m[1])).filter(Boolean);
+const phone = site.phones[2];
+const steps = [
+  { t: 'Your vehicle', d: 'Tell us the year, model and VIN of your Kia.' },
+  { t: 'The part', d: 'Add the part number if you have it, or simply describe what you need.' },
+  { t: 'We call you', d: 'A parts specialist contacts you with availability and price.' },
+];
+---
+<Base title="Spare Parts - Kia Bhutan">
+  <PageHero title="Spare Parts" image={page.banner} crumbs={[{ label: 'Inside Kia Bhutan' }, { label: 'Spare Parts' }]} />
+
+  <!-- Intro -->
+  <section class="section">
+    <div class="container parts__intro">
+      <div data-reveal>
+        <h2 class="parts__title">{title}</h2>
+      </div>
+      <div class="parts__text" data-reveal style="--d:.1s">
+        {paras.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="parts__steps-wrap">
+    <ol class="container parts__steps">
+      {steps.map((s, i) => (
+        <li data-reveal style={`--d:${i * 0.08}s`}>
+          <span class="parts__step-line" aria-hidden="true"></span>
+          <h3>{s.t}</h3>
+          <p>{s.d}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- Order form -->
+  <section class="parts__order" id="order">
+    <div class="container parts__order-inner">
+      <div class="parts__order-head" data-reveal>
+        <h2 class="parts__order-title">Request a part</h2>
+        <p>Prefer to talk? Call the parts desk directly.</p>
+        <ul class="parts__contact">
+          <li><small>{phone.label}</small><a href={`tel:${phone.tel}`}>{phone.display}</a></li>
+          <li><small>Email</small><a href={site.emailHref}>{site.email}</a></li>
+        </ul>
+      </div>
+      <div class="parts__form" data-reveal style="--d:.1s">
+        <FormShell form="spare-parts" submit="Submit">
+          <p class="form__legend">Contact Information</p>
+          <Field name="f-name" label="First Name" required />
+          <Field name="l-name" label="Last Name" required />
+          <Field name="your-email" label="Email Address" type="email" required />
+          <Field name="ph-no" label="Phone No" type="tel" required />
+          <p class="form__legend">Vehicle &amp; Part</p>
+          <Field name="yr" label="Year" type="select" options={years} placeholder="Select Year" />
+          <Field name="Model" label="Model" type="select" options={models} placeholder="Select Model" />
+          <Field name="vin" label="VIN" />
+          <Field name="part-no" label="Part No." />
+          <Field name="part_order" label="Parts Description" type="textarea" full required />
+        </FormShell>
+      </div>
+    </div>
+  </section>
+</Base>
