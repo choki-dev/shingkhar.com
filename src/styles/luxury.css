@@ -82,6 +82,7 @@ body { font-weight: 400; letter-spacing: .005em; background: #fff; }
 }
 .ktitle { margin-bottom: 2.8rem; }
 .title-lg strong, .title-xl strong { font-weight: 600; }
+.klabel {
   display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 0 0 1.1rem;
   font-family: var(--font-head); font-size: .68rem; font-weight: 500; letter-spacing: .34em; text-transform: uppercase; color: #6b6f76;
 }

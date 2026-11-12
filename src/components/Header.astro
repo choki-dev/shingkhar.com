@@ -4,7 +4,9 @@ import { site, modelsAll, modelsNew, insideKia } from '../data/site';
 
 interface Props { transparent?: boolean }
 const { transparent = false } = Astro.props;
-const path = Astro.url.pathname;
+// strip the base (e.g. /shingkhar.com on GitHub Pages) so menu highlighting matches the site's root links
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const path = (base && Astro.url.pathname.startsWith(base) ? Astro.url.pathname.slice(base.length) : Astro.url.pathname) || '/';
 const isActive = (href: string) => href !== '/' && path.startsWith(href);
 const showroomActive = [...modelsAll, ...modelsNew].some((m) => path.startsWith(`/${m.slug}/`));
 const insideActive = insideKia.some((l) => path.startsWith(l.href));
